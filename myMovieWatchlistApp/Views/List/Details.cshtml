@@ -1,0 +1,45 @@
+﻿@model myMovieWatchlistApp.Models.List
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@Html.DisplayNameFor(model => model.Name)</h1>
+    <p>@Html.DisplayNameFor(model => model.Description)</p>
+    <h3><a asp-action="Create">Add a Movie</a></h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Year</th>
+                <th>Date Added</th>
+                <th>Watched</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Movies)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Year)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateAdded)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Watched)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Update", new { id = item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+
+    
+</div>
