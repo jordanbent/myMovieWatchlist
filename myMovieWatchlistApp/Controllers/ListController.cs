@@ -16,6 +16,7 @@ namespace myMovieWatchlistApp.Controllers
         // Initialising Database
         private readonly ApplicationDbContext dbContext;
 
+
         // Controller Construstor
         // - assigning given database to local database variable
         public ListController(ApplicationDbContext applicationDbContext)
