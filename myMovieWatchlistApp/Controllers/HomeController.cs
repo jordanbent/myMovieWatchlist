@@ -1,12 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using myMovieWatchlistLibrary.Models;
 using Microsoft.Extensions.Logging;
 using myMovieWatchlistApp.Models;
-using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
+using myMovieWatchlistApp.Data;
+using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
-using myMovieWatchlistApp.Data;
+using System;
 
 namespace myMovieWatchlistApp.Controllers
 {
@@ -22,13 +23,16 @@ namespace myMovieWatchlistApp.Controllers
             dbContext = applicationDbContext;
         }
 
-        // Create Functionaility
-        // Making a new list
+        // CREATE
+        // -making a new list
+        // --once new list is clicked on the homepage, Index, Create() returns the Create View to prompt user to add a list.
         [Route("addlist")]
         public IActionResult Create()
         {
             return View();
         }
+
+        // -after user has added a list it is created, added to database and shown to the user through the userface.
         [HttpPost("addlist")]
         public IActionResult Create(List list)
         {
@@ -42,24 +46,33 @@ namespace myMovieWatchlistApp.Controllers
             return RedirectToAction("Index");
         }
 
-        // Read Functionailty
-        // Reading all lists
+        // READ
+        // -reading and showing all lists, in a list format
         [Route("")]
         public IActionResult Index()
         {
             return View(dbContext.Lists.ToList());
         }
+
+        // -launched when a user clicks a list name.
+        // --this will move you to the details view found in the list controller, with the list to view given.
         [Route("details/{id:int}")]
         public IActionResult Details(int id)
         {
             return RedirectToAction("ListController/Details");
         }
-        // Update Functionality
+
+        // UPDATE
+        // -when a user wants to update information of a list
+        // --the will be brought to the update view in home.
         [Route("updatelist/{id:int}")]
         public IActionResult Update(int id)
         {
-            return View(dbContext.Lists.FirstOrDefault(c=>c.ID==id));
+            return View(dbContext.Lists.FirstOrDefault(c => c.ID == id));
         }
+
+        // -returning from the update view, the list is grabbed from the database and updated.
+        // --the user is returned to the home page with the updated information visible.
         [HttpPost("updatelist/{id:int}")]
         public IActionResult Update(List list, int id)
         {
@@ -67,16 +80,19 @@ namespace myMovieWatchlistApp.Controllers
 
             updateList.Name = list.Name;
             updateList.Description = list.Description;
-   
+
             dbContext.SaveChanges();
             return RedirectToAction("Index");
         }
-        // Delete Functionality
+
+        // DELETE
+        // -when delete is pressed this function occurs
+        // --the list is found in the database and deleted and the user is given a refreshed page without the list
         [Route("deletelist/{id:int}")]
         public IActionResult Delete(int id)
         {
             var deleteList = dbContext.Lists.FirstOrDefault(c => c.ID == id);
-           
+
             dbContext.Lists.Remove(deleteList);
             dbContext.SaveChanges();
             return RedirectToAction("Index");

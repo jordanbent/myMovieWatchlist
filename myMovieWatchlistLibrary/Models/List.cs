@@ -1,7 +1,7 @@
-using System;
 using System.Collections.Generic;
+using System;
 
-namespace myMovieWatchlistApp.Models
+namespace myMovieWatchlistLibrary.Models
 {
     public class List
     {

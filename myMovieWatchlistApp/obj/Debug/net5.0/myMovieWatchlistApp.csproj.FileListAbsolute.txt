@@ -93,6 +93,9 @@ C:\Projects\myMovieWatchlist\myMovieWatchlistApp\bin\Debug\net5.0\zh-Hans\Micros
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Projects\myMovieWatchlist\myMovieWatchlistApp\bin\Debug\net5.0\myMovieWatchlistLibrary.dll
+C:\Projects\myMovieWatchlist\myMovieWatchlistApp\bin\Debug\net5.0\myMovieWatchlistLibrary.pdb
+C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\myMovieWatchlistApp.csprojAssemblyReference.cache
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\myMovieWatchlistApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\myMovieWatchlistApp.AssemblyInfoInputs.cache
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\myMovieWatchlistApp.AssemblyInfo.cs

@@ -1154,6 +1154,16 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "myMovieWatchlistLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/myMovieWatchlistLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/myMovieWatchlistLibrary.dll": {}
+        }
       }
     }
   },
@@ -4195,6 +4205,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "myMovieWatchlistLibrary/1.0.0": {
+      "type": "project",
+      "path": "../myMovieWatchlistLibrary/myMovieWatchlistLibrary.csproj",
+      "msbuildProject": "../myMovieWatchlistLibrary/myMovieWatchlistLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4203,7 +4218,8 @@
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.5",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
-      "Pomelo.EntityFrameworkCore.MySql >= 5.0.0"
+      "Pomelo.EntityFrameworkCore.MySql >= 5.0.0",
+      "myMovieWatchlistLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4237,7 +4253,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\myMovieWatchlist\\myMovieWatchlistLibrary\\myMovieWatchlistLibrary.csproj": {
+              "projectPath": "C:\\Projects\\myMovieWatchlist\\myMovieWatchlistLibrary\\myMovieWatchlistLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

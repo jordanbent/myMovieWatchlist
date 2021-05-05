@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "myMovieWatchlistLibrary/1.0.0": {
+        "runtime": {
+          "myMovieWatchlistLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "myMovieWatchlistLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

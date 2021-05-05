@@ -1,19 +1,18 @@
-﻿@model IEnumerable<myMovieWatchlistApp.Models.List>
+﻿@model IEnumerable<myMovieWatchlistLibrary.Models.List>
 @{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">MyMovieWatchlist.com</h1>
-    <p>Add a list and fill it with all of your movies!</p>
+    <h1 class="display-4">MyMovieWatchlist</h1>
+
+    <h3><a asp-action="Create">Add a List</a></h3>
 </div>
-<h3><a asp-action="Create">Add a List</a></h3>
+<h4>My Lists</h4>    
 <div class="text-center">
-    <table class="table">
+    <table class="table table-hover table-bordered">
         <thead>
-            <tr>
-                <th>@Html.DisplayNameFor(model => model.Name)</th>
-            </tr>
+
         </thead>
         <tbody>
             @foreach (var item in Model)
