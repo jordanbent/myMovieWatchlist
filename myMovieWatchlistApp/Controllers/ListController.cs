@@ -25,13 +25,15 @@ namespace myMovieWatchlistApp.Controllers
         }
 
         // Create Functionaility
-        [Route("addmovie")]
-        public IActionResult Create()
+        [Route("addmovie/{listID:int}")]
+        public IActionResult Create(int listID)
         {
+            ViewBag.ID = listID;
             return View();
         }
-        [HttpPost("addmovie")]
-        public IActionResult Create(Movie movie)
+        [HttpPost]
+        [Route("addmovie/{listID:int}")]
+        public IActionResult Create(Movie movie, int listID)
         {
             var newMovie = new Movie
             {
@@ -42,42 +44,78 @@ namespace myMovieWatchlistApp.Controllers
             };
             dbContext.Movies.Add(newMovie);
             dbContext.SaveChanges();
-            return RedirectToAction("Index");
+
+            MovieList newML = new MovieList
+            {
+                ListID = listID,
+                MovieID = newMovie.ID
+            };
+            dbContext.MovieList.Add(newML);
+            dbContext.SaveChanges();
+            return RedirectToAction("Details", new { listID });
         }
         // Read Functionailty
-        [Route("details/{id:int}")]
-        public IActionResult Details(int id)
+        public IActionResult Index()
         {
-            var list = dbContext.Lists.FirstOrDefault(c => c.ID == id);
-            return View(list);
+            return View();
         }
+        [Route("details/{listID:int}")]
+        public IActionResult Details(int listID)
+        {
+            var movieList = dbContext.MovieList.FirstOrDefault(c => c.ID == listID);
+            var list = dbContext.Lists.FirstOrDefault(l => l.ID == listID);
+            ViewBag.ID = listID;
+            ViewBag.ListName = list.Name;
+            ViewBag.ListDes = list.Description;
+            List<Movie> movies = new List<Movie>();
+            var allMovies = dbContext.Movies.ToList();
+            foreach (MovieList ml in dbContext.MovieList)
+            {
+                if (ml.ListID == listID)
+                {
+                    foreach (var mov in allMovies)
+                    {
+                        if(mov.ID == ml.MovieID)
+                            movies.Add(mov);
+                    }
+                }
+            }
+            ViewBag.Movies = movies;
+            return View(movies);
+        }
+
         // Update Functionality
-        [Route("updatemovie/{id:int}")]
-        public IActionResult Update(int id)
+        [Route("updatemovie/{movieID:int}/{listID:int}")]
+        public IActionResult Update(int movieID, int listID)
         {
-            return View(dbContext.Movies.FirstOrDefault(c => c.ID == id));
+            ViewBag.ID = listID;
+            return View(dbContext.Movies.FirstOrDefault(c => c.ID == movieID));
         }
-        [HttpPost("updatemovie/{id:int}")]
-        public IActionResult Update(Movie movie, int id)
+        [HttpPost("updatemovie/{movieID:int}/{listID:int}")]
+        public IActionResult Update(Movie movie, int movieID, int listID)
         {
-            var updateMovie = dbContext.Movies.FirstOrDefault(c => c.ID == id);
+            var updateMovie = dbContext.Movies.FirstOrDefault(c => c.ID == movieID);
 
             updateMovie.Name = movie.Name;
             updateMovie.Year = movie.Year;
             updateMovie.Watched = movie.Watched;
 
             dbContext.SaveChanges();
-            return RedirectToAction("Index");
+            return RedirectToAction("Details", new { listID });
         }
         // Delete Functionality
-        [Route("deletemovie/{id:int}")]
-        public IActionResult Delete(int id)
+        [Route("deletemovie/{movieID:int}/{listID:int}")]
+        public IActionResult Delete(int movieID, int listID)
         {
-            var deleteMovie = dbContext.Movies.FirstOrDefault(c => c.ID == id);
-
+            var deleteMovie = dbContext.Movies.FirstOrDefault(c => c.ID == movieID);
             dbContext.Movies.Remove(deleteMovie);
             dbContext.SaveChanges();
-            return RedirectToAction("Index");
+
+            var deleteML = dbContext.MovieList.FirstOrDefault(c => (c.MovieID == movieID)&&(c.ListID == listID));
+            dbContext.MovieList.Remove(deleteML);
+            dbContext.SaveChanges();
+
+            return RedirectToAction("Details", new { listID });
         }
     }
 }

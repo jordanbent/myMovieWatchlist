@@ -93,7 +93,6 @@ C:\Projects\myMovieWatchlist\myMovieWatchlistApp\bin\Debug\net5.0\zh-Hans\Micros
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\myMovieWatchlistApp.csprojAssemblyReference.cache
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\myMovieWatchlistApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\myMovieWatchlistApp.AssemblyInfoInputs.cache
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\myMovieWatchlistApp.AssemblyInfo.cs
@@ -107,8 +106,14 @@ C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\scopedcss\bund
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\myMovieWatchlistApp.TagHelpers.input.cache
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\myMovieWatchlistApp.TagHelpers.output.cache
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\myMovieWatchlistApp.RazorCoreGenerate.cache
+C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\Home\Create.cshtml.g.cs
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\Home\Update.cshtml.g.cs
+C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\List\Create.cshtml.g.cs
+C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\List\Details.cshtml.g.cs
+C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\List\Privacy.cshtml.g.cs
+C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\List\Update.cshtml.g.cs
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -122,9 +127,3 @@ C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\myMovieWatchli
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\ref\myMovieWatchlistApp.dll
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\myMovieWatchlistApp.pdb
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\myMovieWatchlistApp.genruntimeconfig.cache
-C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\Home\Create.cshtml.g.cs
-C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\Home\Update.cshtml.g.cs
-C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\List\Create.cshtml.g.cs
-C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\List\Details.cshtml.g.cs
-C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\List\Privacy.cshtml.g.cs
-C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\List\Update.cshtml.g.cs

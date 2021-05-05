@@ -1,9 +1,9 @@
-@model myMovieWatchlistApp.Models.Movie;
+@model myMovieWatchlistApp.Models.List;
 @{
     ViewData["Title"] = "Update";
 }
 
-<h1>Update your Movie</h1>
+<h1>Update your List</h1>
 
 <div class="row">
     <div class="col-md-4">
@@ -15,14 +15,9 @@
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Year" class="control-label"></label>
-                <input asp-for="Year" class="form-control"></input>
-                <span asp-validation-for="Year" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Watched" class="control-label"></label>
-                <input asp-for="Watched" class="form-control"></input>
-                <span asp-validation-for="Watched" class="text-danger"></span>
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control">
+                <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

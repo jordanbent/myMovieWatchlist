@@ -9,6 +9,5 @@ namespace myMovieWatchlistApp.Models
         public int Year { get; set; }
         public DateTime? DateAdded { get; set; }
         public Boolean Watched { get; set; }
-        public virtual List List { get; set; }
     }
 }

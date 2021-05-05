@@ -23,6 +23,7 @@ namespace myMovieWatchlistApp.Controllers
         }
 
         // Create Functionaility
+        // Making a new list
         [Route("addlist")]
         public IActionResult Create()
         {
@@ -31,7 +32,7 @@ namespace myMovieWatchlistApp.Controllers
         [HttpPost("addlist")]
         public IActionResult Create(List list)
         {
-            var newlist = new List
+            List newlist = new List
             {
                 Name = list.Name,
                 Description = list.Description
@@ -40,7 +41,10 @@ namespace myMovieWatchlistApp.Controllers
             dbContext.SaveChanges();
             return RedirectToAction("Index");
         }
+
         // Read Functionailty
+        // Reading all lists
+        [Route("")]
         public IActionResult Index()
         {
             return View(dbContext.Lists.ToList());
@@ -48,34 +52,32 @@ namespace myMovieWatchlistApp.Controllers
         [Route("details/{id:int}")]
         public IActionResult Details(int id)
         {
-
             return RedirectToAction("ListController/Details");
         }
         // Update Functionality
-        [Route("updatemovie/{id:int}")]
+        [Route("updatelist/{id:int}")]
         public IActionResult Update(int id)
         {
-            return View(dbContext.Movies.FirstOrDefault(c=>c.ID==id));
+            return View(dbContext.Lists.FirstOrDefault(c=>c.ID==id));
         }
-        [HttpPost("updatemovie/{id:int}")]
-        public IActionResult Update(Movie movie, int id)
+        [HttpPost("updatelist/{id:int}")]
+        public IActionResult Update(List list, int id)
         {
-            var updateMovie = dbContext.Movies.FirstOrDefault(c => c.ID == id);
-            
-            updateMovie.Name = movie.Name;
-            updateMovie.Year = movie.Year;
-            updateMovie.Watched = movie.Watched;
+            var updateList = dbContext.Lists.FirstOrDefault(c => c.ID == id);
+
+            updateList.Name = list.Name;
+            updateList.Description = list.Description;
    
             dbContext.SaveChanges();
             return RedirectToAction("Index");
         }
         // Delete Functionality
-        [Route("deletemovie/{id:int}")]
+        [Route("deletelist/{id:int}")]
         public IActionResult Delete(int id)
         {
-            var deleteMovie = dbContext.Movies.FirstOrDefault(c => c.ID == id);
+            var deleteList = dbContext.Lists.FirstOrDefault(c => c.ID == id);
            
-            dbContext.Movies.Remove(deleteMovie);
+            dbContext.Lists.Remove(deleteList);
             dbContext.SaveChanges();
             return RedirectToAction("Index");
         }

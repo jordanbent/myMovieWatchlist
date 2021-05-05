@@ -1,45 +1,43 @@
-﻿@model myMovieWatchlistApp.Models.List
+﻿@model IEnumerable<myMovieWatchlistApp.Models.Movie>
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Details";
 }
 
-<div class="text-center">
-    <h1 class="display-4">@Html.DisplayNameFor(model => model.Name)</h1>
-    <p>@Html.DisplayNameFor(model => model.Description)</p>
-    <h3><a asp-action="Create">Add a Movie</a></h3>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Year</th>
-                <th>Date Added</th>
-                <th>Watched</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model.Movies)
-            {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Year)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DateAdded)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Watched)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Update", new { id = item.ID }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.ID })
-                </td>
-            </tr>
-            }
-        </tbody>
-    </table>
+    <h1 class="display-4">@ViewBag.ListName</h1>
+    <p>@ViewBag.ListDes</p>
 
-    
-</div>
+    <h5>@Html.ActionLink("Back to Lists", "Index", "Home")</h5>
+    <h3>@Html.ActionLink("Add a Movie", "Create", new { listID = ViewBag.ID })</h3>
+   
+ <div class="text-center">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Year</th>
+                    <th>Date Added</th>
+                    <th>Watched</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in ViewBag.Movies)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Year</td>
+                        <td>@item.DateAdded</td>
+                        <td>@item.Watched</td>
+                        <td>
+                            @Html.ActionLink("Edit", "Update", new { movieID = item.ID, listID = ViewBag.ID }) |
+                            @Html.ActionLink("Delete", "Delete", new { movieID = item.ID, listID = ViewBag.ID })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+
+    </div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

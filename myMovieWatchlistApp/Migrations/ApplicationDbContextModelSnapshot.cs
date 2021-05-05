@@ -43,9 +43,6 @@ namespace myMovieWatchlistApp.Migrations
                     b.Property<DateTime?>("DateAdded")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int?>("ListID")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .HasColumnType("longtext");
 
@@ -57,21 +54,24 @@ namespace myMovieWatchlistApp.Migrations
 
                     b.HasKey("ID");
 
-                    b.HasIndex("ListID");
-
                     b.ToTable("Movies");
                 });
 
-            modelBuilder.Entity("myMovieWatchlistApp.Models.Movie", b =>
+            modelBuilder.Entity("myMovieWatchlistApp.Models.MovieList", b =>
                 {
-                    b.HasOne("myMovieWatchlistApp.Models.List", null)
-                        .WithMany("Movies")
-                        .HasForeignKey("ListID");
-                });
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
 
-            modelBuilder.Entity("myMovieWatchlistApp.Models.List", b =>
-                {
-                    b.Navigation("Movies");
+                    b.Property<int>("ListID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MovieID")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("MovieList");
                 });
 #pragma warning restore 612, 618
         }

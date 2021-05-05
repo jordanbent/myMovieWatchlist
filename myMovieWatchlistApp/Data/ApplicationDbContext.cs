@@ -12,5 +12,6 @@ namespace myMovieWatchlistApp.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
         public DbSet<Movie> Movies { get; set; }
         public DbSet<List> Lists { get; set; }
+        public DbSet<MovieList> MovieList { get; set; }
     }
 }

@@ -27,7 +27,7 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <p>@Html.ActionLink("Back to List", "Details", new { listID = ViewBag.ID })</p>
 </div>
 
 @section Scripts {

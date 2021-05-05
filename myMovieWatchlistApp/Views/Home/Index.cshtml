@@ -6,32 +6,35 @@
 <div class="text-center">
     <h1 class="display-4">MyMovieWatchlist.com</h1>
     <p>Add a list and fill it with all of your movies!</p>
-    <h3><a asp-action="Create">Add a List</a></h3>
-
+</div>
+<h3><a asp-action="Create">Add a List</a></h3>
+<div class="text-center">
     <table class="table">
         <thead>
             <tr>
                 <th>@Html.DisplayNameFor(model => model.Name)</th>
-                <th>Number of Movies</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model)
             {
-            <tr>
-                <td>
-                    @Html.ActionLink(item.Name, "Details", new { id = item.ID })
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Movies.Count)
-                </td>
-                <td>
-                    @Html.ActionLink("Delete", "Delete", new { id = item.ID })
-                </td>
-            </tr>
+                <tr>
+                    <td>
+                        @Html.ActionLink(item.Name, "Details", "List", new { listID = item.ID })
+                    </td>
+                    <td>
+                        @Html.DisplayFor(model => item.Description)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                    </td>
+                </tr>
             }
         </tbody>
     </table>
 
-    
+
 </div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
