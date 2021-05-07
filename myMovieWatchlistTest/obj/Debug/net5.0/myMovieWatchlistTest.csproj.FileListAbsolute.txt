@@ -17,6 +17,7 @@ C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchl
 C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll
 C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\ref\myMovieWatchlistTest.dll
 C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.pdb
+C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\Castle.Core.dll
 C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\HtmlAgilityPack.dll
 C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\Humanizer.dll
 C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\System.Web.Mvc.dll
@@ -205,4 +206,3 @@ C:\Projects\myMovieWatchlist\myMovieWatchlistTest\obj\Debug\net5.0\myMovieWatchl
 C:\Projects\myMovieWatchlist\myMovieWatchlistTest\obj\Debug\net5.0\ref\myMovieWatchlistTest.dll
 C:\Projects\myMovieWatchlist\myMovieWatchlistTest\obj\Debug\net5.0\myMovieWatchlistTest.pdb
 C:\Projects\myMovieWatchlist\myMovieWatchlistTest\obj\Debug\net5.0\myMovieWatchlistTest.genruntimeconfig.cache
-C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\Castle.Core.dll

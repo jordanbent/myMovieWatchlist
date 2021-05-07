@@ -411,7 +411,6 @@ C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\Li
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\List\Details.cshtml.g.cs
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\List\Privacy.cshtml.g.cs
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\List\Update.cshtml.g.cs
-C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Projects\myMovieWatchlist\myMovieWatchlistApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs

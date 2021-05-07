@@ -2,7 +2,6 @@ using myMovieWatchlistLibrary.Models;
 using myMovieWatchlistLibrary.Interfaces;
 using myMovieWatchlistLibrary.Repositories;
 using Microsoft.Extensions.Logging;
-using myMovieWatchlistApp.Models;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using myMovieWatchlistLibrary.Data;
@@ -84,17 +83,23 @@ namespace myMovieWatchlistApp.Controllers
         public IActionResult Details(int listID)
         {
             //var list = dbContext.Lists.FirstOrDefault(l => l.ID == listID);
-            var list = _repo.Lists.FindByCondition(l => l.ID == listID).FirstOrDefault();
+            var listList = _repo.Lists.FindByCondition(l => l.ID == listID);
+            var list = listList.FirstOrDefault();
             ViewBag.ID = listID;
-            ViewBag.ListName = list.Name;
-            ViewBag.ListDes = list.Description;
+            if (list != null)
+            {
+                ViewBag.ListName = list.Name;
+                ViewBag.ListDes = list.Description;
+            }
+            else
+            {
+                ViewBag.ListName = "Unknown Name";
+                ViewBag.ListDes = "Unkown Description";
+            }
 
             List<Movie> movies = new List<Movie>();
             List<MovieList> movieLists = new List<MovieList>();
             //var allMovies = dbContext.Movies.ToList();
-            //var allMovies = _repo.Movies.FindAll();
-
-            //var allMovieLists = _repo.MovieLists.FindAll();
 
             foreach (MovieList ml in _repo.MovieLists.FindAll())
             {
@@ -134,9 +139,16 @@ namespace myMovieWatchlistApp.Controllers
             //var updateMovie = dbContext.Movies.FirstOrDefault(c => c.ID == movieID);
             var updateMovie = _repo.Movies.FindByCondition(c => c.ID == movieID).FirstOrDefault();
 
-            updateMovie.Name = movie.Name;
-            updateMovie.Year = movie.Year;
-            updateMovie.Watched = movie.Watched;
+            if (updateMovie != null)
+            {
+                updateMovie.Name = movie.Name;
+                updateMovie.Year = movie.Year;
+                updateMovie.Watched = movie.Watched;
+            }
+            else
+            {
+                Console.WriteLine("There is no Movie with that Movie ID in our Database.");
+            }
 
             //dbContext.SaveChanges();
             _repo.Save();

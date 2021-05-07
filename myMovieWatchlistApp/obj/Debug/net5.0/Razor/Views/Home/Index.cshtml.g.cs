@@ -19,15 +19,8 @@ using myMovieWatchlistApp;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 2 "C:\Projects\myMovieWatchlist\myMovieWatchlistApp\Views\_ViewImports.cshtml"
-using myMovieWatchlistApp.Models;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"109a845cbbc6028a885ef1d1aa2a72fd0ab97ad1", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e2182e45a88ce69b2de77aeba13d4d2b42747ede", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"976db85ce265aa82114c7e739f6d77f0495153ef", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<myMovieWatchlistLibrary.Models.List>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Create", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -64,7 +57,7 @@ using myMovieWatchlistApp.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<div class=\"text-center\">\r\n    <h1 class=\"display-4\">MyMovieWatchlist</h1>\r\n\r\n    <h3>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "109a845cbbc6028a885ef1d1aa2a72fd0ab97ad13697", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "109a845cbbc6028a885ef1d1aa2a72fd0ab97ad13507", async() => {
                 WriteLiteral("Add a List");
             }
             );

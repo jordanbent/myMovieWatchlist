@@ -7,8 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
     <PackageReference Include="Moq" Version="4.16.1" />
+    <PackageReference Include="partcovernet4" Version="4.0.0" />
     <PackageReference Include="RazorGenerator.Mvc" Version="2.4.9" />
     <PackageReference Include="RazorGenerator.Testing" Version="2.4.7" />
     <PackageReference Include="xunit" Version="2.4.1" />

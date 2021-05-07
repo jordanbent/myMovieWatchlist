@@ -26,6 +26,7 @@
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\jordan.bent\.nuget\packages\xunit.analyzers\0.10.0</Pkgxunit_analyzers>
     <PkgRazorGenerator_Mvc Condition=" '$(PkgRazorGenerator_Mvc)' == '' ">C:\Users\jordan.bent\.nuget\packages\razorgenerator.mvc\2.4.9</PkgRazorGenerator_Mvc>
+    <Pkgpartcovernet4 Condition=" '$(Pkgpartcovernet4)' == '' ">C:\Users\jordan.bent\.nuget\packages\partcovernet4\4.0.0</Pkgpartcovernet4>
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\jordan.bent\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
   </PropertyGroup>
 </Project>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EaTwoAaICCzr/0QQsNbRq4SjNZvvOrvLf7j/LDy3C3H0CLOUrW7k9gqmYN6Zs+cZ1V5OG/P0QrcKAUL39vRnKg==",
+  "dgSpecHash": "sR4K8iPAMz15NAeG6ltHlBuPa6CHN4SbUibZ7Wzr6fPwpvO2LGtj8rjt+joha1RHmdqI7a30brTam0jZCDIVhA==",
   "success": true,
   "projectFilePath": "C:\\Projects\\myMovieWatchlist\\myMovieWatchlistTest\\myMovieWatchlistTest.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "C:\\Users\\jordan.bent\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\jordan.bent\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\jordan.bent\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
+    "C:\\Users\\jordan.bent\\.nuget\\packages\\partcovernet4\\4.0.0\\partcovernet4.4.0.0.nupkg.sha512",
     "C:\\Users\\jordan.bent\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\5.0.0\\pomelo.entityframeworkcore.mysql.5.0.0.nupkg.sha512",
     "C:\\Users\\jordan.bent\\.nuget\\packages\\razorgenerator.mvc\\2.4.9\\razorgenerator.mvc.2.4.9.nupkg.sha512",
     "C:\\Users\\jordan.bent\\.nuget\\packages\\razorgenerator.testing\\2.4.7\\razorgenerator.testing.2.4.7.nupkg.sha512",

@@ -1,0 +1,1656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.6218809980806143" branch-rate="0.15168539325842698" lines-covered="324" lines-valid="521" branches-covered="27" branches-valid="178" complexity="253" version="0" timestamp="1620399105">
+  <sources>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="myMovieWatchlistApp" line-rate="0.6823529411764706" branch-rate="0.7352941176470589" complexity="49">
+      <classes>
+        <class name="myMovieWatchlistApp.Controllers.HomeController" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistApp\Controllers\HomeController.cs" line-rate="0.9047619047619048" branch-rate="0.5" complexity="9">
+          <methods>
+            <method name="Create" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Create" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Index" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="61" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Details" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="70" hits="1" branch="false" />
+                <line number="71" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Update" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="79" hits="1" branch="false" />
+                <line number="81" hits="1" branch="false" />
+                <line number="82" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Update" signature="(...)" line-rate="0.6" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="88" hits="1" branch="false" />
+                <line number="90" hits="1" branch="false" />
+                <line number="92" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="93" hits="0" branch="false" />
+                <line number="94" hits="0" branch="false" />
+                <line number="95" hits="0" branch="false" />
+                <line number="96" hits="0" branch="false" />
+                <line number="99" hits="1" branch="false" />
+                <line number="100" hits="1" branch="false" />
+                <line number="101" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Delete" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="108" hits="1" branch="false" />
+                <line number="110" hits="1" branch="false" />
+                <line number="113" hits="1" branch="false" />
+                <line number="115" hits="1" branch="false" />
+                <line number="116" hits="1" branch="false" />
+                <line number="117" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="8" branch="false" />
+                <line number="28" hits="8" branch="false" />
+                <line number="29" hits="8" branch="false" />
+                <line number="30" hits="8" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="27" hits="8" branch="false" />
+            <line number="28" hits="8" branch="false" />
+            <line number="29" hits="8" branch="false" />
+            <line number="30" hits="8" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="81" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="88" hits="1" branch="false" />
+            <line number="90" hits="1" branch="false" />
+            <line number="92" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="93" hits="0" branch="false" />
+            <line number="94" hits="0" branch="false" />
+            <line number="95" hits="0" branch="false" />
+            <line number="96" hits="0" branch="false" />
+            <line number="99" hits="1" branch="false" />
+            <line number="100" hits="1" branch="false" />
+            <line number="101" hits="1" branch="false" />
+            <line number="108" hits="1" branch="false" />
+            <line number="110" hits="1" branch="false" />
+            <line number="113" hits="1" branch="false" />
+            <line number="115" hits="1" branch="false" />
+            <line number="116" hits="1" branch="false" />
+            <line number="117" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistApp.Controllers.ListController" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistApp\Controllers\ListController.cs" line-rate="0.896551724137931" branch-rate="0.8" complexity="33">
+          <methods>
+            <method name="Create" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Create" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+                <line number="65" hits="1" branch="false" />
+                <line number="66" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="71" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="74" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Details" signature="(...)" line-rate="0.8787878787878788" branch-rate="0.7916666666666666" complexity="24">
+              <lines>
+                <line number="84" hits="1" branch="false" />
+                <line number="86" hits="1" branch="false" />
+                <line number="87" hits="1" branch="false" />
+                <line number="88" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="89" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="90" hits="0" branch="false" />
+                <line number="91" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="92" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="93" hits="0" branch="false" />
+                <line number="95" hits="1" branch="false" />
+                <line number="96" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="97" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="98" hits="1" branch="false" />
+                <line number="100" hits="1" branch="false" />
+                <line number="101" hits="1" branch="false" />
+                <line number="104" hits="7" branch="true" condition-coverage="100% (2/2)" />
+                <line number="105" hits="2" branch="false" />
+                <line number="106" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="107" hits="2" branch="false" />
+                <line number="108" hits="2" branch="false" />
+                <line number="109" hits="2" branch="false" />
+                <line number="110" hits="2" branch="false" />
+                <line number="111" hits="7" branch="true" condition-coverage="100% (2/2)" />
+                <line number="112" hits="2" branch="false" />
+                <line number="113" hits="14" branch="true" condition-coverage="100% (2/2)" />
+                <line number="114" hits="4" branch="false" />
+                <line number="115" hits="4" branch="true" condition-coverage="100% (2/2)" />
+                <line number="116" hits="2" branch="false" />
+                <line number="117" hits="4" branch="false" />
+                <line number="118" hits="2" branch="false" />
+                <line number="119" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="120" hits="1" branch="false" />
+                <line number="121" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Update" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="128" hits="1" branch="false" />
+                <line number="129" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="131" hits="1" branch="false" />
+                <line number="132" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Update" signature="(...)" line-rate="0.6428571428571429" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="138" hits="1" branch="false" />
+                <line number="140" hits="1" branch="false" />
+                <line number="142" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="143" hits="0" branch="false" />
+                <line number="144" hits="0" branch="false" />
+                <line number="145" hits="0" branch="false" />
+                <line number="146" hits="0" branch="false" />
+                <line number="147" hits="0" branch="false" />
+                <line number="149" hits="1" branch="false" />
+                <line number="150" hits="1" branch="false" />
+                <line number="151" hits="1" branch="false" />
+                <line number="154" hits="1" branch="false" />
+                <line number="155" hits="1" branch="false" />
+                <line number="156" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Delete" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="163" hits="1" branch="false" />
+                <line number="167" hits="1" branch="false" />
+                <line number="168" hits="1" branch="false" />
+                <line number="169" hits="1" branch="false" />
+                <line number="174" hits="1" branch="false" />
+                <line number="175" hits="1" branch="false" />
+                <line number="176" hits="1" branch="false" />
+                <line number="178" hits="1" branch="false" />
+                <line number="179" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="7" branch="false" />
+                <line number="30" hits="7" branch="false" />
+                <line number="31" hits="7" branch="false" />
+                <line number="32" hits="7" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="29" hits="7" branch="false" />
+            <line number="30" hits="7" branch="false" />
+            <line number="31" hits="7" branch="false" />
+            <line number="32" hits="7" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="65" hits="1" branch="false" />
+            <line number="66" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="86" hits="1" branch="false" />
+            <line number="87" hits="1" branch="false" />
+            <line number="88" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="89" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="90" hits="0" branch="false" />
+            <line number="91" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="92" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="93" hits="0" branch="false" />
+            <line number="95" hits="1" branch="false" />
+            <line number="96" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="97" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="98" hits="1" branch="false" />
+            <line number="100" hits="1" branch="false" />
+            <line number="101" hits="1" branch="false" />
+            <line number="104" hits="7" branch="true" condition-coverage="100% (2/2)" />
+            <line number="105" hits="2" branch="false" />
+            <line number="106" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="107" hits="2" branch="false" />
+            <line number="108" hits="2" branch="false" />
+            <line number="109" hits="2" branch="false" />
+            <line number="110" hits="2" branch="false" />
+            <line number="111" hits="7" branch="true" condition-coverage="100% (2/2)" />
+            <line number="112" hits="2" branch="false" />
+            <line number="113" hits="14" branch="true" condition-coverage="100% (2/2)" />
+            <line number="114" hits="4" branch="false" />
+            <line number="115" hits="4" branch="true" condition-coverage="100% (2/2)" />
+            <line number="116" hits="2" branch="false" />
+            <line number="117" hits="4" branch="false" />
+            <line number="118" hits="2" branch="false" />
+            <line number="119" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="120" hits="1" branch="false" />
+            <line number="121" hits="1" branch="false" />
+            <line number="128" hits="1" branch="false" />
+            <line number="129" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="131" hits="1" branch="false" />
+            <line number="132" hits="1" branch="false" />
+            <line number="138" hits="1" branch="false" />
+            <line number="140" hits="1" branch="false" />
+            <line number="142" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="143" hits="0" branch="false" />
+            <line number="144" hits="0" branch="false" />
+            <line number="145" hits="0" branch="false" />
+            <line number="146" hits="0" branch="false" />
+            <line number="147" hits="0" branch="false" />
+            <line number="149" hits="1" branch="false" />
+            <line number="150" hits="1" branch="false" />
+            <line number="151" hits="1" branch="false" />
+            <line number="154" hits="1" branch="false" />
+            <line number="155" hits="1" branch="false" />
+            <line number="156" hits="1" branch="false" />
+            <line number="163" hits="1" branch="false" />
+            <line number="167" hits="1" branch="false" />
+            <line number="168" hits="1" branch="false" />
+            <line number="169" hits="1" branch="false" />
+            <line number="174" hits="1" branch="false" />
+            <line number="175" hits="1" branch="false" />
+            <line number="176" hits="1" branch="false" />
+            <line number="178" hits="1" branch="false" />
+            <line number="179" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistApp.Program" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistApp\Program.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateHostBuilder" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistApp.Startup" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistApp\Startup.cs" line-rate="0" branch-rate="0" complexity="5">
+          <methods>
+            <method name="get_Configuration" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="ConfigureServices" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Configure" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="38" hits="0" branch="false" />
+                <line number="39" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="40" hits="0" branch="false" />
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="47" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+                <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="52" hits="0" branch="false" />
+                <line number="54" hits="0" branch="false" />
+                <line number="56" hits="0" branch="false" />
+                <line number="57" hits="0" branch="false" />
+                <line number="58" hits="0" branch="false" />
+                <line number="59" hits="0" branch="false" />
+                <line number="60" hits="0" branch="false" />
+                <line number="61" hits="0" branch="false" />
+                <line number="62" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="39" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="40" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="52" hits="0" branch="false" />
+            <line number="54" hits="0" branch="false" />
+            <line number="56" hits="0" branch="false" />
+            <line number="57" hits="0" branch="false" />
+            <line number="58" hits="0" branch="false" />
+            <line number="59" hits="0" branch="false" />
+            <line number="60" hits="0" branch="false" />
+            <line number="61" hits="0" branch="false" />
+            <line number="62" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="myMovieWatchlistApp.Views" line-rate="0" branch-rate="0" complexity="143">
+      <classes>
+        <class name="AspNetCore.Views__ViewStart" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistApp\Views\_ViewStart.cshtml" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="2" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="2" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Home_Create" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistApp\Views\Home\Create.cshtml" line-rate="0" branch-rate="0" complexity="19">
+          <methods>
+            <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="3" hits="0" branch="true" condition-coverage="0% (0/4)" />
+              </lines>
+            </method>
+            <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="14">
+              <lines>
+                <line number="11" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="13" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="14" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="15" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="20" hits="0" branch="true" condition-coverage="0% (0/2)" />
+              </lines>
+            </method>
+            <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="11" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="13" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="14" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="15" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="20" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="34" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Home_Index" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistApp\Views\Home\Index.cshtml" line-rate="0" branch-rate="0" complexity="5">
+          <methods>
+            <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="3" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="19" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="28" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="19" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Home_Privacy" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistApp\Views\Home\Privacy.cshtml" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="2" hits="0" branch="false" />
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="2" hits="0" branch="false" />
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Home_Update" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistApp\Views\Home\Update.cshtml" line-rate="0" branch-rate="0" complexity="19">
+          <methods>
+            <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="3" hits="0" branch="true" condition-coverage="0% (0/4)" />
+              </lines>
+            </method>
+            <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="14">
+              <lines>
+                <line number="11" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="13" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="14" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="15" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="20" hits="0" branch="true" condition-coverage="0% (0/2)" />
+              </lines>
+            </method>
+            <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="11" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="13" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="14" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="15" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="20" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="34" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_List_Create" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistApp\Views\List\Create.cshtml" line-rate="0" branch-rate="0" complexity="19">
+          <methods>
+            <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="3" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="11" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="13" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="14" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="15" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="20" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="30" hits="0" branch="true" condition-coverage="0% (0/2)" />
+              </lines>
+            </method>
+            <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="14">
+              <lines>
+                <line number="11" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="13" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="14" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="15" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="20" hits="0" branch="true" condition-coverage="0% (0/2)" />
+              </lines>
+            </method>
+            <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="11" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="13" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="14" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="15" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="20" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="30" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="34" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_List_Details" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistApp\Views\List\Details.cshtml" line-rate="0" branch-rate="0" complexity="41">
+          <methods>
+            <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="40">
+              <lines>
+                <line number="3" hits="0" branch="false" />
+                <line number="6" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="7" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="10" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="19" hits="0" branch="true" condition-coverage="0% (0/6)" />
+                <line number="20" hits="0" branch="false" />
+                <line number="22" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="23" hits="0" branch="true" condition-coverage="0% (0/8)" />
+                <line number="25" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="27" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="28" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="31" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="false" />
+            <line number="6" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="7" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="10" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="19" hits="0" branch="true" condition-coverage="0% (0/6)" />
+            <line number="20" hits="0" branch="false" />
+            <line number="22" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="23" hits="0" branch="true" condition-coverage="0% (0/8)" />
+            <line number="25" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="27" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="28" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="31" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_List_Privacy" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistApp\Views\List\Privacy.cshtml" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="2" hits="0" branch="false" />
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="2" hits="0" branch="false" />
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_List_Update" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistApp\Views\List\Update.cshtml" line-rate="0" branch-rate="0" complexity="25">
+          <methods>
+            <method name="ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="3" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="10" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="12" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="13" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="14" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="17" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="22" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="23" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="24" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="34" hits="0" branch="true" condition-coverage="0% (0/2)" />
+              </lines>
+            </method>
+            <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="20">
+              <lines>
+                <line number="10" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="12" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="13" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="14" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="17" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="22" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="23" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="24" hits="0" branch="true" condition-coverage="0% (0/2)" />
+              </lines>
+            </method>
+            <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="10" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="12" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="13" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="14" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="17" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="19" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="22" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="23" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="24" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="34" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="38" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="AspNetCore.Views_Shared__Layout" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistApp\Views\Shared\_Layout.cshtml" line-rate="0" branch-rate="0" complexity="12">
+          <methods>
+            <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="6" hits="0" branch="true" condition-coverage="0% (0/4)" />
+              </lines>
+            </method>
+            <method name="&lt;ExecuteAsync" signature="()" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="15" hits="0" branch="true" condition-coverage="0% (0/6)" />
+                <line number="26" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="27" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="15" hits="0" branch="true" condition-coverage="0% (0/6)" />
+            <line number="26" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="27" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="myMovieWatchlistLibrary" line-rate="0.19444444444444445" branch-rate="0.2" complexity="37">
+      <classes>
+        <class name="myMovieWatchlistLibrary.Data.ApplicationDbContext" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\Data\ApplicationDbContext.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Movies" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Lists" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_MovieList" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistLibrary.Interfaces.IMovie" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\Interfaces\IMovie.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="get_IsWatched" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="19" hits="0" branch="false" />
+                <line number="20" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="21" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="21" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistLibrary.Models.List" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\Models\List.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_ID" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="14" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Description" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="14" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="12" branch="false" />
+            <line number="9" hits="14" branch="false" />
+            <line number="10" hits="14" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistLibrary.Models.Movie" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\Models\Movie.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_ID" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="18" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="15" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Year" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="15" branch="false" />
+              </lines>
+            </method>
+            <method name="get_DateAdded" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="14" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Watched" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="20" branch="false" />
+              </lines>
+            </method>
+            <method name="get_IsWatched" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="16" hits="2" branch="false" />
+                <line number="17" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="18" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="18" branch="false" />
+            <line number="9" hits="15" branch="false" />
+            <line number="10" hits="15" branch="false" />
+            <line number="11" hits="14" branch="false" />
+            <line number="12" hits="20" branch="false" />
+            <line number="16" hits="2" branch="false" />
+            <line number="17" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="18" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistLibrary.Models.MovieList" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\Models\MovieList.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_ID" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ListID" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="get_MovieID" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="11" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="6" branch="false" />
+            <line number="9" hits="9" branch="false" />
+            <line number="10" hits="11" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistLibrary.Repositories.ListRepository" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\Repositories\ListRepository.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistLibrary.Repositories.MovieListRepository" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\Repositories\MovieListRepository.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistLibrary.Repositories.MovieRepository" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\Repositories\MovieRepository.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistLibrary.Repositories.Repository`1" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\Repositories\Repository.cs" line-rate="0" branch-rate="1" complexity="7">
+          <methods>
+            <method name="get_RepositoryContext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Create" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Delete" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+                <line number="28" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="FindAll" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="FindByCondition" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Update" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistLibrary.Repositories.RepositoryWrapper" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\Repositories\RepositoryWrapper.cs" line-rate="0" branch-rate="0" complexity="8">
+          <methods>
+            <method name="get_Lists" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="26" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+                <line number="28" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Movies" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+                <line number="39" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_MovieLists" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="46" hits="0" branch="false" />
+                <line number="47" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="48" hits="0" branch="false" />
+                <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="myMovieWatchlistLibrary.Interfaces.IRepositoryWrapper.Save" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="53" hits="0" branch="false" />
+                <line number="54" hits="0" branch="false" />
+                <line number="55" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="26" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="39" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="47" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="48" hits="0" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="53" hits="0" branch="false" />
+            <line number="54" hits="0" branch="false" />
+            <line number="55" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="myMovieWatchlistTest" line-rate="0.9371980676328503" branch-rate="1" complexity="24">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\jordan.bent\.nuget\packages\microsoft.net.test.sdk\16.7.1\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistTest.ControllerTest.HomeControllerTest" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\ControllerTest\HomeControllerTest.cs" line-rate="0.9516129032258065" branch-rate="1" complexity="8">
+          <methods>
+            <method name="ConstructorTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="46" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="61" hits="4" branch="false" />
+                <line number="62" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="71" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="IndexTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="74" hits="1" branch="false" />
+                <line number="77" hits="1" branch="false" />
+                <line number="78" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
+                <line number="82" hits="1" branch="false" />
+                <line number="85" hits="1" branch="false" />
+                <line number="86" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DetailsTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="89" hits="1" branch="false" />
+                <line number="92" hits="1" branch="false" />
+                <line number="93" hits="1" branch="false" />
+                <line number="96" hits="1" branch="false" />
+                <line number="99" hits="1" branch="false" />
+                <line number="100" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="UpdateTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="103" hits="1" branch="false" />
+                <line number="106" hits="1" branch="false" />
+                <line number="107" hits="1" branch="false" />
+                <line number="108" hits="1" branch="false" />
+                <line number="111" hits="1" branch="false" />
+                <line number="114" hits="1" branch="false" />
+                <line number="118" hits="4" branch="false" />
+                <line number="119" hits="1" branch="false" />
+                <line number="120" hits="1" branch="false" />
+                <line number="121" hits="1" branch="false" />
+                <line number="124" hits="1" branch="false" />
+                <line number="127" hits="1" branch="false" />
+                <line number="128" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="131" hits="1" branch="false" />
+                <line number="134" hits="1" branch="false" />
+                <line number="135" hits="1" branch="false" />
+                <line number="136" hits="1" branch="false" />
+                <line number="139" hits="1" branch="false" />
+                <line number="142" hits="1" branch="false" />
+                <line number="143" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetLists" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="146" hits="3" branch="false" />
+                <line number="147" hits="3" branch="false" />
+                <line number="148" hits="3" branch="false" />
+                <line number="149" hits="3" branch="false" />
+                <line number="150" hits="3" branch="false" />
+                <line number="151" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="GetList" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="153" hits="0" branch="false" />
+                <line number="154" hits="0" branch="false" />
+                <line number="155" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="61" hits="4" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="77" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="85" hits="1" branch="false" />
+            <line number="86" hits="1" branch="false" />
+            <line number="89" hits="1" branch="false" />
+            <line number="92" hits="1" branch="false" />
+            <line number="93" hits="1" branch="false" />
+            <line number="96" hits="1" branch="false" />
+            <line number="99" hits="1" branch="false" />
+            <line number="100" hits="1" branch="false" />
+            <line number="103" hits="1" branch="false" />
+            <line number="106" hits="1" branch="false" />
+            <line number="107" hits="1" branch="false" />
+            <line number="108" hits="1" branch="false" />
+            <line number="111" hits="1" branch="false" />
+            <line number="114" hits="1" branch="false" />
+            <line number="118" hits="4" branch="false" />
+            <line number="119" hits="1" branch="false" />
+            <line number="120" hits="1" branch="false" />
+            <line number="121" hits="1" branch="false" />
+            <line number="124" hits="1" branch="false" />
+            <line number="127" hits="1" branch="false" />
+            <line number="128" hits="1" branch="false" />
+            <line number="131" hits="1" branch="false" />
+            <line number="134" hits="1" branch="false" />
+            <line number="135" hits="1" branch="false" />
+            <line number="136" hits="1" branch="false" />
+            <line number="139" hits="1" branch="false" />
+            <line number="142" hits="1" branch="false" />
+            <line number="143" hits="1" branch="false" />
+            <line number="146" hits="3" branch="false" />
+            <line number="147" hits="3" branch="false" />
+            <line number="148" hits="3" branch="false" />
+            <line number="149" hits="3" branch="false" />
+            <line number="150" hits="3" branch="false" />
+            <line number="151" hits="3" branch="false" />
+            <line number="153" hits="0" branch="false" />
+            <line number="154" hits="0" branch="false" />
+            <line number="155" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistTest.ControllerTest.ListControllerTest" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\ControllerTest\ListControllerTest.cs" line-rate="0.9042553191489362" branch-rate="1" complexity="11">
+          <methods>
+            <method name="ConstructorTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="CreateTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="67" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="71" hits="1" branch="false" />
+                <line number="74" hits="1" branch="false" />
+                <line number="77" hits="1" branch="false" />
+                <line number="81" hits="6" branch="false" />
+                <line number="82" hits="1" branch="false" />
+                <line number="83" hits="1" branch="false" />
+                <line number="84" hits="1" branch="false" />
+                <line number="85" hits="1" branch="false" />
+                <line number="88" hits="1" branch="false" />
+                <line number="91" hits="1" branch="false" />
+                <line number="92" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DetailsTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="95" hits="1" branch="false" />
+                <line number="98" hits="1" branch="false" />
+                <line number="99" hits="1" branch="false" />
+                <line number="100" hits="1" branch="false" />
+                <line number="101" hits="1" branch="false" />
+                <line number="102" hits="1" branch="false" />
+                <line number="105" hits="1" branch="false" />
+                <line number="108" hits="1" branch="false" />
+                <line number="109" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="UpdateTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="112" hits="1" branch="false" />
+                <line number="115" hits="1" branch="false" />
+                <line number="116" hits="1" branch="false" />
+                <line number="117" hits="1" branch="false" />
+                <line number="120" hits="1" branch="false" />
+                <line number="123" hits="1" branch="false" />
+                <line number="127" hits="6" branch="false" />
+                <line number="128" hits="1" branch="false" />
+                <line number="129" hits="1" branch="false" />
+                <line number="130" hits="1" branch="false" />
+                <line number="133" hits="1" branch="false" />
+                <line number="136" hits="1" branch="false" />
+                <line number="137" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="140" hits="1" branch="false" />
+                <line number="143" hits="1" branch="false" />
+                <line number="144" hits="1" branch="false" />
+                <line number="145" hits="1" branch="false" />
+                <line number="146" hits="1" branch="false" />
+                <line number="149" hits="1" branch="false" />
+                <line number="152" hits="1" branch="false" />
+                <line number="153" hits="1" branch="false" />
+                <line number="154" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetLists" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="157" hits="1" branch="false" />
+                <line number="158" hits="1" branch="false" />
+                <line number="159" hits="1" branch="false" />
+                <line number="160" hits="1" branch="false" />
+                <line number="161" hits="1" branch="false" />
+                <line number="162" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetList" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="164" hits="0" branch="false" />
+                <line number="165" hits="0" branch="false" />
+                <line number="166" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetMovies" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="168" hits="4" branch="false" />
+                <line number="169" hits="4" branch="false" />
+                <line number="170" hits="4" branch="false" />
+                <line number="171" hits="4" branch="false" />
+                <line number="172" hits="4" branch="false" />
+                <line number="173" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="GetMovie" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="175" hits="0" branch="false" />
+                <line number="176" hits="0" branch="false" />
+                <line number="177" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetMovieLists" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="179" hits="2" branch="false" />
+                <line number="180" hits="2" branch="false" />
+                <line number="181" hits="2" branch="false" />
+                <line number="182" hits="2" branch="false" />
+                <line number="183" hits="2" branch="false" />
+                <line number="184" hits="2" branch="false" />
+                <line number="185" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="GetMovieList" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="187" hits="0" branch="false" />
+                <line number="188" hits="0" branch="false" />
+                <line number="189" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="77" hits="1" branch="false" />
+            <line number="81" hits="6" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="83" hits="1" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="85" hits="1" branch="false" />
+            <line number="88" hits="1" branch="false" />
+            <line number="91" hits="1" branch="false" />
+            <line number="92" hits="1" branch="false" />
+            <line number="95" hits="1" branch="false" />
+            <line number="98" hits="1" branch="false" />
+            <line number="99" hits="1" branch="false" />
+            <line number="100" hits="1" branch="false" />
+            <line number="101" hits="1" branch="false" />
+            <line number="102" hits="1" branch="false" />
+            <line number="105" hits="1" branch="false" />
+            <line number="108" hits="1" branch="false" />
+            <line number="109" hits="1" branch="false" />
+            <line number="112" hits="1" branch="false" />
+            <line number="115" hits="1" branch="false" />
+            <line number="116" hits="1" branch="false" />
+            <line number="117" hits="1" branch="false" />
+            <line number="120" hits="1" branch="false" />
+            <line number="123" hits="1" branch="false" />
+            <line number="127" hits="6" branch="false" />
+            <line number="128" hits="1" branch="false" />
+            <line number="129" hits="1" branch="false" />
+            <line number="130" hits="1" branch="false" />
+            <line number="133" hits="1" branch="false" />
+            <line number="136" hits="1" branch="false" />
+            <line number="137" hits="1" branch="false" />
+            <line number="140" hits="1" branch="false" />
+            <line number="143" hits="1" branch="false" />
+            <line number="144" hits="1" branch="false" />
+            <line number="145" hits="1" branch="false" />
+            <line number="146" hits="1" branch="false" />
+            <line number="149" hits="1" branch="false" />
+            <line number="152" hits="1" branch="false" />
+            <line number="153" hits="1" branch="false" />
+            <line number="154" hits="1" branch="false" />
+            <line number="157" hits="1" branch="false" />
+            <line number="158" hits="1" branch="false" />
+            <line number="159" hits="1" branch="false" />
+            <line number="160" hits="1" branch="false" />
+            <line number="161" hits="1" branch="false" />
+            <line number="162" hits="1" branch="false" />
+            <line number="164" hits="0" branch="false" />
+            <line number="165" hits="0" branch="false" />
+            <line number="166" hits="0" branch="false" />
+            <line number="168" hits="4" branch="false" />
+            <line number="169" hits="4" branch="false" />
+            <line number="170" hits="4" branch="false" />
+            <line number="171" hits="4" branch="false" />
+            <line number="172" hits="4" branch="false" />
+            <line number="173" hits="4" branch="false" />
+            <line number="175" hits="0" branch="false" />
+            <line number="176" hits="0" branch="false" />
+            <line number="177" hits="0" branch="false" />
+            <line number="179" hits="2" branch="false" />
+            <line number="180" hits="2" branch="false" />
+            <line number="181" hits="2" branch="false" />
+            <line number="182" hits="2" branch="false" />
+            <line number="183" hits="2" branch="false" />
+            <line number="184" hits="2" branch="false" />
+            <line number="185" hits="2" branch="false" />
+            <line number="187" hits="0" branch="false" />
+            <line number="188" hits="0" branch="false" />
+            <line number="189" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistTest.ModelTest.ListTest" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\ModelTest\ListTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="ConstructorTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistTest.ModelTest.MovieListTest" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\ModelTest\MovieListTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="ConstructorTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="myMovieWatchlistTest.ModelTest.MovieTest" filename="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\ModelTest\MovieTest.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="ConstructorTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="IsWatchedTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

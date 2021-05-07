@@ -1055,6 +1055,9 @@
           "lib/netstandard2.0/NuGet.Frameworks.dll": {}
         }
       },
+      "partcovernet4/4.0.0": {
+        "type": "package"
+      },
       "Pomelo.EntityFrameworkCore.MySql/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -4324,6 +4327,34 @@
         "lib/netstandard2.0/NuGet.Frameworks.xml",
         "nuget.frameworks.5.0.0.nupkg.sha512",
         "nuget.frameworks.nuspec"
+      ]
+    },
+    "partcovernet4/4.0.0": {
+      "sha512": "8f3ag09mrIj5O/YSQHroJ5WVnnFniHQL0QNF+SsLJRVsrJV2sblYtTC3xYVWvXXVgMypqCueJjFNumwX7ShEaw==",
+      "type": "package",
+      "path": "partcovernet4/4.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "partcovernet4.4.0.0.nupkg.sha512",
+        "partcovernet4.nuspec",
+        "tools/Interop.PartCover.dll",
+        "tools/PartCover.Browser.Api.dll",
+        "tools/PartCover.Browser.exe",
+        "tools/PartCover.Browser.exe.config",
+        "tools/PartCover.Framework.dll",
+        "tools/PartCover.Registration.exe",
+        "tools/PartCover.Registration.exe.config",
+        "tools/PartCover.StressTest.exe",
+        "tools/PartCover.StressTest.exe.config",
+        "tools/PartCover.dll",
+        "tools/PartCover.exe",
+        "tools/PartCover.exe.config",
+        "tools/PartViewer.dll",
+        "tools/log4net.dll",
+        "tools/xslt/Report_By_Assembly.xslt",
+        "tools/xslt/Report_By_Class.xslt"
       ]
     },
     "Pomelo.EntityFrameworkCore.MySql/5.0.0": {
@@ -8471,6 +8502,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Microsoft.EntityFrameworkCore >= 5.0.5",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "Moq >= 4.16.1",
       "RazorGenerator.Mvc >= 2.4.9",
@@ -8478,6 +8510,7 @@
       "coverlet.collector >= 1.3.0",
       "myMovieWatchlistApp >= 1.0.0",
       "myMovieWatchlistLibrary >= 1.0.0",
+      "partcovernet4 >= 4.0.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
     ]
@@ -8533,6 +8566,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.5, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.7.1, )"
@@ -8554,6 +8591,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[1.3.0, )"
+          },
+          "partcovernet4": {
+            "target": "Package",
+            "version": "[4.0.0, )"
           },
           "xunit": {
             "target": "Package",

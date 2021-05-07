@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="6d5f80ff-2781-49bf-b926-869440ca9291" name="jordan.bent@WINAPIKRLK8CZRD 2021-05-07 13:07:15" runUser="AVANADE-CORP\jordan.bent" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-05-07T13:07:15.2827026+01:00" queuing="2021-05-07T13:07:15.2827038+01:00" start="2021-05-07T13:07:13.6378137+01:00" finish="2021-05-07T13:07:15.3606052+01:00" />
+  <TestSettings name="default" id="240b70d4-4ccc-472b-b53f-91d71c116ca2">
+    <Deployment runDeploymentRoot="jordan.bent_WINAPIKRLK8CZRD_2021-05-07_13_07_15" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e5904ae8-c892-416c-b245-551cb6e12c8d" testId="885d17d9-53c0-f4cc-9729-f9dbd0a0e816" testName="myMovieWatchlistTest.ControllerTest.HomeControllerTest.IndexTest" computerName="WINAPIKRLK8CZRD" duration="00:00:00.0895182" startTime="2021-05-07T13:07:15.2187254+01:00" endTime="2021-05-07T13:07:15.2187270+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5904ae8-c892-416c-b245-551cb6e12c8d" />
+    <UnitTestResult executionId="1fc24813-d76d-4fb7-8629-bd4e816c4a02" testId="50dc5087-ca18-5e71-5e18-99584435ffd5" testName="myMovieWatchlistTest.ControllerTest.HomeControllerTest.DetailsTest" computerName="WINAPIKRLK8CZRD" duration="00:00:00.0002339" startTime="2021-05-07T13:07:15.2238853+01:00" endTime="2021-05-07T13:07:15.2238859+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fc24813-d76d-4fb7-8629-bd4e816c4a02" />
+    <UnitTestResult executionId="baaff476-55cf-4486-9cf4-a62ec40b817a" testId="6eb52d72-dcdf-8afa-6f7c-9491f2594e92" testName="myMovieWatchlistTest.ControllerTest.ListControllerTest.DetailsTest" computerName="WINAPIKRLK8CZRD" duration="00:00:00.1342450" startTime="2021-05-07T13:07:15.2634140+01:00" endTime="2021-05-07T13:07:15.2634156+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="baaff476-55cf-4486-9cf4-a62ec40b817a" />
+    <UnitTestResult executionId="9916f45f-ff26-4cde-94f8-06b5ee497ed7" testId="91029b76-cd76-55b0-230f-d91069e0bcdd" testName="myMovieWatchlistTest.ControllerTest.HomeControllerTest.ConstructorTest" computerName="WINAPIKRLK8CZRD" duration="00:00:00.0097141" startTime="2021-05-07T13:07:15.2507914+01:00" endTime="2021-05-07T13:07:15.2507918+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9916f45f-ff26-4cde-94f8-06b5ee497ed7" />
+    <UnitTestResult executionId="d183a35a-4c6a-4088-862b-fbed2edbe51e" testId="fdc4e8ba-6854-b279-2af8-3cc50a0efeca" testName="myMovieWatchlistTest.ModelTest.ListTest.ConstructorTest" computerName="WINAPIKRLK8CZRD" duration="00:00:00.0035776" startTime="2021-05-07T13:07:15.1401868+01:00" endTime="2021-05-07T13:07:15.1401869+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d183a35a-4c6a-4088-862b-fbed2edbe51e" />
+    <UnitTestResult executionId="e98c22c4-aff7-496d-9e60-2e556730dc0b" testId="ff666d57-9a90-cc48-ae1e-5d3611b344f3" testName="myMovieWatchlistTest.ModelTest.MovieTest.IsWatchedTest" computerName="WINAPIKRLK8CZRD" duration="00:00:00.0035029" startTime="2021-05-07T13:07:15.1368462+01:00" endTime="2021-05-07T13:07:15.1369287+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e98c22c4-aff7-496d-9e60-2e556730dc0b" />
+    <UnitTestResult executionId="74374a00-da54-4bfb-915c-95281499348d" testId="79a54704-87a5-c60b-9ecd-21a4ec32b4c7" testName="myMovieWatchlistTest.ControllerTest.HomeControllerTest.CreateTest" computerName="WINAPIKRLK8CZRD" duration="00:00:00.0050097" startTime="2021-05-07T13:07:15.2505210+01:00" endTime="2021-05-07T13:07:15.2505216+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74374a00-da54-4bfb-915c-95281499348d" />
+    <UnitTestResult executionId="4fc19182-ac93-4158-8799-2a8f923c579e" testId="3a840640-e328-ed20-bebd-5a9ed1903687" testName="myMovieWatchlistTest.ModelTest.MovieTest.ConstructorTest" computerName="WINAPIKRLK8CZRD" duration="00:00:00.0008219" startTime="2021-05-07T13:07:15.1412916+01:00" endTime="2021-05-07T13:07:15.1412919+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fc19182-ac93-4158-8799-2a8f923c579e" />
+    <UnitTestResult executionId="1783e4bf-c583-4a02-8e76-55e5751fce95" testId="f76eed5d-0503-832a-4553-0d3e41415231" testName="myMovieWatchlistTest.ModelTest.MovieListTest.ConstructorTest" computerName="WINAPIKRLK8CZRD" duration="00:00:00.0036908" startTime="2021-05-07T13:07:15.1401502+01:00" endTime="2021-05-07T13:07:15.1401510+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1783e4bf-c583-4a02-8e76-55e5751fce95" />
+    <UnitTestResult executionId="91607e0f-0067-40f5-aed1-8da45b77b75b" testId="7ebef060-4280-e681-8a16-4a3cdc7aadca" testName="myMovieWatchlistTest.ControllerTest.ListControllerTest.ConstructorTest" computerName="WINAPIKRLK8CZRD" duration="00:00:00.0089185" startTime="2021-05-07T13:07:15.2758395+01:00" endTime="2021-05-07T13:07:15.2758414+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="91607e0f-0067-40f5-aed1-8da45b77b75b" />
+    <UnitTestResult executionId="7abe8e68-af96-41e3-ae37-e86a134f3113" testId="256042e9-3ace-6b56-b1b2-05067c6c7431" testName="myMovieWatchlistTest.ControllerTest.HomeControllerTest.UpdateTest" computerName="WINAPIKRLK8CZRD" duration="00:00:00.0017886" startTime="2021-05-07T13:07:15.2257324+01:00" endTime="2021-05-07T13:07:15.2257335+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7abe8e68-af96-41e3-ae37-e86a134f3113" />
+    <UnitTestResult executionId="08b71cb1-0d89-4461-a417-8ecbfff74465" testId="0d5ffe22-3347-7b8d-d9e7-7e8b7cd2253a" testName="myMovieWatchlistTest.ControllerTest.HomeControllerTest.DeleteTest" computerName="WINAPIKRLK8CZRD" duration="00:00:00.0047952" startTime="2021-05-07T13:07:15.2235940+01:00" endTime="2021-05-07T13:07:15.2235959+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08b71cb1-0d89-4461-a417-8ecbfff74465" />
+    <UnitTestResult executionId="331885b9-b17e-42b7-aaf8-35a622f06e70" testId="d40f8764-173e-8376-8e47-5cc6434b800f" testName="myMovieWatchlistTest.ControllerTest.ListControllerTest.DeleteTest" computerName="WINAPIKRLK8CZRD" duration="00:00:00.0022384" startTime="2021-05-07T13:07:15.2808459+01:00" endTime="2021-05-07T13:07:15.2808471+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="331885b9-b17e-42b7-aaf8-35a622f06e70" />
+    <UnitTestResult executionId="fad4c1d7-82ba-4007-b30e-1eceddc1c900" testId="65a094ac-c1a1-4bb4-c013-62581cdc31b3" testName="myMovieWatchlistTest.ControllerTest.ListControllerTest.UpdateTest" computerName="WINAPIKRLK8CZRD" duration="00:00:00.0027098" startTime="2021-05-07T13:07:15.2785620+01:00" endTime="2021-05-07T13:07:15.2785636+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fad4c1d7-82ba-4007-b30e-1eceddc1c900" />
+    <UnitTestResult executionId="0fcc8eb3-3d3d-423f-a9e6-662ee85f4777" testId="4ea87890-865b-8687-0d6a-ec65124c0348" testName="myMovieWatchlistTest.ControllerTest.ListControllerTest.CreateTest" computerName="WINAPIKRLK8CZRD" duration="00:00:00.0033089" startTime="2021-05-07T13:07:15.2667896+01:00" endTime="2021-05-07T13:07:15.2667911+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fcc8eb3-3d3d-423f-a9e6-662ee85f4777" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="myMovieWatchlistTest.ModelTest.MovieTest.ConstructorTest" storage="c:\projects\mymoviewatchlist\mymoviewatchlisttest\bin\debug\net5.0\mymoviewatchlisttest.dll" id="3a840640-e328-ed20-bebd-5a9ed1903687">
+      <Execution id="4fc19182-ac93-4158-8799-2a8f923c579e" />
+      <TestMethod codeBase="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="myMovieWatchlistTest.ModelTest.MovieTest" name="ConstructorTest" />
+    </UnitTest>
+    <UnitTest name="myMovieWatchlistTest.ControllerTest.ListControllerTest.DetailsTest" storage="c:\projects\mymoviewatchlist\mymoviewatchlisttest\bin\debug\net5.0\mymoviewatchlisttest.dll" id="6eb52d72-dcdf-8afa-6f7c-9491f2594e92">
+      <Execution id="baaff476-55cf-4486-9cf4-a62ec40b817a" />
+      <TestMethod codeBase="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="myMovieWatchlistTest.ControllerTest.ListControllerTest" name="DetailsTest" />
+    </UnitTest>
+    <UnitTest name="myMovieWatchlistTest.ControllerTest.ListControllerTest.CreateTest" storage="c:\projects\mymoviewatchlist\mymoviewatchlisttest\bin\debug\net5.0\mymoviewatchlisttest.dll" id="4ea87890-865b-8687-0d6a-ec65124c0348">
+      <Execution id="0fcc8eb3-3d3d-423f-a9e6-662ee85f4777" />
+      <TestMethod codeBase="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="myMovieWatchlistTest.ControllerTest.ListControllerTest" name="CreateTest" />
+    </UnitTest>
+    <UnitTest name="myMovieWatchlistTest.ControllerTest.HomeControllerTest.DetailsTest" storage="c:\projects\mymoviewatchlist\mymoviewatchlisttest\bin\debug\net5.0\mymoviewatchlisttest.dll" id="50dc5087-ca18-5e71-5e18-99584435ffd5">
+      <Execution id="1fc24813-d76d-4fb7-8629-bd4e816c4a02" />
+      <TestMethod codeBase="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="myMovieWatchlistTest.ControllerTest.HomeControllerTest" name="DetailsTest" />
+    </UnitTest>
+    <UnitTest name="myMovieWatchlistTest.ControllerTest.ListControllerTest.DeleteTest" storage="c:\projects\mymoviewatchlist\mymoviewatchlisttest\bin\debug\net5.0\mymoviewatchlisttest.dll" id="d40f8764-173e-8376-8e47-5cc6434b800f">
+      <Execution id="331885b9-b17e-42b7-aaf8-35a622f06e70" />
+      <TestMethod codeBase="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="myMovieWatchlistTest.ControllerTest.ListControllerTest" name="DeleteTest" />
+    </UnitTest>
+    <UnitTest name="myMovieWatchlistTest.ModelTest.ListTest.ConstructorTest" storage="c:\projects\mymoviewatchlist\mymoviewatchlisttest\bin\debug\net5.0\mymoviewatchlisttest.dll" id="fdc4e8ba-6854-b279-2af8-3cc50a0efeca">
+      <Execution id="d183a35a-4c6a-4088-862b-fbed2edbe51e" />
+      <TestMethod codeBase="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="myMovieWatchlistTest.ModelTest.ListTest" name="ConstructorTest" />
+    </UnitTest>
+    <UnitTest name="myMovieWatchlistTest.ControllerTest.HomeControllerTest.CreateTest" storage="c:\projects\mymoviewatchlist\mymoviewatchlisttest\bin\debug\net5.0\mymoviewatchlisttest.dll" id="79a54704-87a5-c60b-9ecd-21a4ec32b4c7">
+      <Execution id="74374a00-da54-4bfb-915c-95281499348d" />
+      <TestMethod codeBase="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="myMovieWatchlistTest.ControllerTest.HomeControllerTest" name="CreateTest" />
+    </UnitTest>
+    <UnitTest name="myMovieWatchlistTest.ControllerTest.HomeControllerTest.UpdateTest" storage="c:\projects\mymoviewatchlist\mymoviewatchlisttest\bin\debug\net5.0\mymoviewatchlisttest.dll" id="256042e9-3ace-6b56-b1b2-05067c6c7431">
+      <Execution id="7abe8e68-af96-41e3-ae37-e86a134f3113" />
+      <TestMethod codeBase="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="myMovieWatchlistTest.ControllerTest.HomeControllerTest" name="UpdateTest" />
+    </UnitTest>
+    <UnitTest name="myMovieWatchlistTest.ControllerTest.HomeControllerTest.IndexTest" storage="c:\projects\mymoviewatchlist\mymoviewatchlisttest\bin\debug\net5.0\mymoviewatchlisttest.dll" id="885d17d9-53c0-f4cc-9729-f9dbd0a0e816">
+      <Execution id="e5904ae8-c892-416c-b245-551cb6e12c8d" />
+      <TestMethod codeBase="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="myMovieWatchlistTest.ControllerTest.HomeControllerTest" name="IndexTest" />
+    </UnitTest>
+    <UnitTest name="myMovieWatchlistTest.ModelTest.MovieTest.IsWatchedTest" storage="c:\projects\mymoviewatchlist\mymoviewatchlisttest\bin\debug\net5.0\mymoviewatchlisttest.dll" id="ff666d57-9a90-cc48-ae1e-5d3611b344f3">
+      <Execution id="e98c22c4-aff7-496d-9e60-2e556730dc0b" />
+      <TestMethod codeBase="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="myMovieWatchlistTest.ModelTest.MovieTest" name="IsWatchedTest" />
+    </UnitTest>
+    <UnitTest name="myMovieWatchlistTest.ControllerTest.HomeControllerTest.ConstructorTest" storage="c:\projects\mymoviewatchlist\mymoviewatchlisttest\bin\debug\net5.0\mymoviewatchlisttest.dll" id="91029b76-cd76-55b0-230f-d91069e0bcdd">
+      <Execution id="9916f45f-ff26-4cde-94f8-06b5ee497ed7" />
+      <TestMethod codeBase="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="myMovieWatchlistTest.ControllerTest.HomeControllerTest" name="ConstructorTest" />
+    </UnitTest>
+    <UnitTest name="myMovieWatchlistTest.ModelTest.MovieListTest.ConstructorTest" storage="c:\projects\mymoviewatchlist\mymoviewatchlisttest\bin\debug\net5.0\mymoviewatchlisttest.dll" id="f76eed5d-0503-832a-4553-0d3e41415231">
+      <Execution id="1783e4bf-c583-4a02-8e76-55e5751fce95" />
+      <TestMethod codeBase="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="myMovieWatchlistTest.ModelTest.MovieListTest" name="ConstructorTest" />
+    </UnitTest>
+    <UnitTest name="myMovieWatchlistTest.ControllerTest.ListControllerTest.UpdateTest" storage="c:\projects\mymoviewatchlist\mymoviewatchlisttest\bin\debug\net5.0\mymoviewatchlisttest.dll" id="65a094ac-c1a1-4bb4-c013-62581cdc31b3">
+      <Execution id="fad4c1d7-82ba-4007-b30e-1eceddc1c900" />
+      <TestMethod codeBase="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="myMovieWatchlistTest.ControllerTest.ListControllerTest" name="UpdateTest" />
+    </UnitTest>
+    <UnitTest name="myMovieWatchlistTest.ControllerTest.HomeControllerTest.DeleteTest" storage="c:\projects\mymoviewatchlist\mymoviewatchlisttest\bin\debug\net5.0\mymoviewatchlisttest.dll" id="0d5ffe22-3347-7b8d-d9e7-7e8b7cd2253a">
+      <Execution id="08b71cb1-0d89-4461-a417-8ecbfff74465" />
+      <TestMethod codeBase="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="myMovieWatchlistTest.ControllerTest.HomeControllerTest" name="DeleteTest" />
+    </UnitTest>
+    <UnitTest name="myMovieWatchlistTest.ControllerTest.ListControllerTest.ConstructorTest" storage="c:\projects\mymoviewatchlist\mymoviewatchlisttest\bin\debug\net5.0\mymoviewatchlisttest.dll" id="7ebef060-4280-e681-8a16-4a3cdc7aadca">
+      <Execution id="91607e0f-0067-40f5-aed1-8da45b77b75b" />
+      <TestMethod codeBase="C:\Projects\myMovieWatchlist\myMovieWatchlistTest\bin\Debug\net5.0\myMovieWatchlistTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="myMovieWatchlistTest.ControllerTest.ListControllerTest" name="ConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="885d17d9-53c0-f4cc-9729-f9dbd0a0e816" executionId="e5904ae8-c892-416c-b245-551cb6e12c8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50dc5087-ca18-5e71-5e18-99584435ffd5" executionId="1fc24813-d76d-4fb7-8629-bd4e816c4a02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6eb52d72-dcdf-8afa-6f7c-9491f2594e92" executionId="baaff476-55cf-4486-9cf4-a62ec40b817a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91029b76-cd76-55b0-230f-d91069e0bcdd" executionId="9916f45f-ff26-4cde-94f8-06b5ee497ed7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fdc4e8ba-6854-b279-2af8-3cc50a0efeca" executionId="d183a35a-4c6a-4088-862b-fbed2edbe51e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff666d57-9a90-cc48-ae1e-5d3611b344f3" executionId="e98c22c4-aff7-496d-9e60-2e556730dc0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79a54704-87a5-c60b-9ecd-21a4ec32b4c7" executionId="74374a00-da54-4bfb-915c-95281499348d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a840640-e328-ed20-bebd-5a9ed1903687" executionId="4fc19182-ac93-4158-8799-2a8f923c579e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f76eed5d-0503-832a-4553-0d3e41415231" executionId="1783e4bf-c583-4a02-8e76-55e5751fce95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ebef060-4280-e681-8a16-4a3cdc7aadca" executionId="91607e0f-0067-40f5-aed1-8da45b77b75b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="256042e9-3ace-6b56-b1b2-05067c6c7431" executionId="7abe8e68-af96-41e3-ae37-e86a134f3113" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d5ffe22-3347-7b8d-d9e7-7e8b7cd2253a" executionId="08b71cb1-0d89-4461-a417-8ecbfff74465" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d40f8764-173e-8376-8e47-5cc6434b800f" executionId="331885b9-b17e-42b7-aaf8-35a622f06e70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65a094ac-c1a1-4bb4-c013-62581cdc31b3" executionId="fad4c1d7-82ba-4007-b30e-1eceddc1c900" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ea87890-865b-8687-0d6a-ec65124c0348" executionId="0fcc8eb3-3d3d-423f-a9e6-662ee85f4777" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="15" executed="15" passed="15" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 5.0.5)&#xD;
+[xUnit.net 00:00:00.88]   Discovering: myMovieWatchlistTest&#xD;
+[xUnit.net 00:00:00.91]   Discovered:  myMovieWatchlistTest&#xD;
+[xUnit.net 00:00:00.91]   Starting:    myMovieWatchlistTest&#xD;
+[xUnit.net 00:00:01.12]   Finished:    myMovieWatchlistTest&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

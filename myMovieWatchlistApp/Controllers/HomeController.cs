@@ -2,7 +2,6 @@
 using myMovieWatchlistLibrary.Interfaces;
 using myMovieWatchlistLibrary.Repositories;
 using Microsoft.Extensions.Logging;
-using myMovieWatchlistApp.Models;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using myMovieWatchlistLibrary.Data;
@@ -90,8 +89,11 @@ namespace myMovieWatchlistApp.Controllers
             //var updateList = dbContext.Lists.FirstOrDefault(c => c.ID == id);
             var updateList = _repo.Lists.FindByCondition(c => c.ID == id).FirstOrDefault();
 
-            updateList.Name = list.Name;
-            updateList.Description = list.Description;
+            if (updateList != null)
+            {
+                updateList.Name = list.Name;
+                updateList.Description = list.Description;
+            }
 
             //dbContext.SaveChanges();#
             _repo.Save();

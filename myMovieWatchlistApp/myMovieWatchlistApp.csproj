@@ -26,4 +26,8 @@
     <ProjectReference Include="..\myMovieWatchlistLibrary\myMovieWatchlistLibrary.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="tools\" />
+  </ItemGroup>
+
 </Project>
