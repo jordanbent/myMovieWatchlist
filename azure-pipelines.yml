@@ -20,3 +20,16 @@ steps:
     npm install
     ng build --prod
   displayName: 'npm install and build'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    workingDirectory: './myMovieWatchlistApp'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'restore'
+    projects: './myMovieWatchlistApp'
+    feedsToUse: 'select'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'run'
+    vstsFeed: 'c7382dc7-0032-4f79-aa5b-4b2841ce1445'
