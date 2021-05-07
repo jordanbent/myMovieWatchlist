@@ -1,0 +1,12 @@
+C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\bin\Release\net5.0\myMovieWatchlistLibrary.deps.json
+C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\bin\Release\net5.0\myMovieWatchlistLibrary.dll
+C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\bin\Release\net5.0\ref\myMovieWatchlistLibrary.dll
+C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\bin\Release\net5.0\myMovieWatchlistLibrary.pdb
+C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Release\net5.0\myMovieWatchlistLibrary.csprojAssemblyReference.cache
+C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Release\net5.0\myMovieWatchlistLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Release\net5.0\myMovieWatchlistLibrary.AssemblyInfoInputs.cache
+C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Release\net5.0\myMovieWatchlistLibrary.AssemblyInfo.cs
+C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Release\net5.0\myMovieWatchlistLibrary.csproj.CoreCompileInputs.cache
+C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Release\net5.0\myMovieWatchlistLibrary.dll
+C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Release\net5.0\ref\myMovieWatchlistLibrary.dll
+C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Release\net5.0\myMovieWatchlistLibrary.pdb
