@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "HtmlAgilityPack/1.4.6": {
+        "type": "package",
+        "compile": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        },
+        "runtime": {
+          "lib/Net45/HtmlAgilityPack.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -9,6 +18,47 @@
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Mvc/3.0.50813.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "1.0.20105.408",
+          "Microsoft.AspNet.WebPages": "1.0.20105.408"
+        },
+        "compile": {
+          "lib/net40/System.Web.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Web.Mvc.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Razor/1.0.20105.408": {
+        "type": "package",
+        "compile": {
+          "lib/net40/System.Web.Razor.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Web.Razor.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages/1.0.20105.408": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "1.0.20105.408",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net40/System.Web.Helpers.dll": {},
+          "lib/net40/System.Web.WebPages.Deployment.dll": {},
+          "lib/net40/System.Web.WebPages.Razor.dll": {},
+          "lib/net40/System.Web.WebPages.dll": {}
+        },
+        "runtime": {
+          "lib/net40/System.Web.Helpers.dll": {},
+          "lib/net40/System.Web.WebPages.Deployment.dll": {},
+          "lib/net40/System.Web.WebPages.Razor.dll": {},
+          "lib/net40/System.Web.WebPages.dll": {}
         }
       },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -638,6 +688,24 @@
           "lib/net5.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {}
         }
       },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      },
+      "Moq/4.0.10827": {
+        "type": "package",
+        "compile": {
+          "lib/NET40/Moq.dll": {}
+        },
+        "runtime": {
+          "lib/NET40/Moq.dll": {}
+        }
+      },
       "MySqlConnector/1.3.7": {
         "type": "package",
         "compile": {
@@ -668,6 +736,43 @@
         },
         "runtime": {
           "lib/netstandard2.1/Pomelo.EntityFrameworkCore.MySql.dll": {}
+        }
+      },
+      "RazorGenerator.Mvc/2.4.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "3.0.50813.1",
+          "WebActivatorEx": "2.0.3"
+        },
+        "compile": {
+          "lib/net40/RazorGenerator.Mvc.dll": {}
+        },
+        "runtime": {
+          "lib/net40/RazorGenerator.Mvc.dll": {}
+        }
+      },
+      "RazorGenerator.Testing/2.4.7": {
+        "type": "package",
+        "dependencies": {
+          "HtmlAgilityPack": "1.4.6",
+          "Microsoft.AspNet.Mvc": "3.0.50813.1",
+          "Moq": "4.0.10827",
+          "ReflectionMagic": "2.0.0"
+        },
+        "compile": {
+          "lib/net40/RazorGenerator.Testing.dll": {}
+        },
+        "runtime": {
+          "lib/net40/RazorGenerator.Testing.dll": {}
+        }
+      },
+      "ReflectionMagic/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/ReflectionMagic.dll": {}
+        },
+        "runtime": {
+          "lib/net40/ReflectionMagic.dll": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -1155,9 +1260,24 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "WebActivatorEx/2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net40/WebActivatorEx.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WebActivatorEx.dll": {}
+        }
+      },
       "myMovieWatchlistLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.5"
+        },
         "compile": {
           "bin/placeholder/myMovieWatchlistLibrary.dll": {}
         },
@@ -1168,6 +1288,47 @@
     }
   },
   "libraries": {
+    "HtmlAgilityPack/1.4.6": {
+      "sha512": "eynYngE4cZiNdRAPy1GDXAxBcng0KEJhY9/QPfpZRjEKG45eqinB3r45rMwhnJsVf+1NJcrrnN67mR8ox4I37w==",
+      "type": "package",
+      "path": "htmlagilitypack/1.4.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "HAPIcon.png",
+        "htmlagilitypack.1.4.6.nupkg.sha512",
+        "htmlagilitypack.nuspec",
+        "lib/Net20/HtmlAgilityPack.dll",
+        "lib/Net20/HtmlAgilityPack.pdb",
+        "lib/Net20/HtmlAgilityPack.xml",
+        "lib/Net40-client/HtmlAgilityPack.dll",
+        "lib/Net40-client/HtmlAgilityPack.pdb",
+        "lib/Net40-client/HtmlAgilityPack.xml",
+        "lib/Net40/HtmlAgilityPack.XML",
+        "lib/Net40/HtmlAgilityPack.dll",
+        "lib/Net40/HtmlAgilityPack.pdb",
+        "lib/Net45/HtmlAgilityPack.XML",
+        "lib/Net45/HtmlAgilityPack.dll",
+        "lib/Net45/HtmlAgilityPack.pdb",
+        "lib/sl3-wp/HtmlAgilityPack.XML",
+        "lib/sl3-wp/HtmlAgilityPack.dll",
+        "lib/sl3-wp/HtmlAgilityPack.pdb",
+        "lib/sl4-windowsphone71/HtmlAgilityPack.XML",
+        "lib/sl4-windowsphone71/HtmlAgilityPack.dll",
+        "lib/sl4-windowsphone71/HtmlAgilityPack.pdb",
+        "lib/sl4/HtmlAgilityPack.XML",
+        "lib/sl4/HtmlAgilityPack.dll",
+        "lib/sl4/HtmlAgilityPack.pdb",
+        "lib/sl5/HtmlAgilityPack.XML",
+        "lib/sl5/HtmlAgilityPack.dll",
+        "lib/sl5/HtmlAgilityPack.pdb",
+        "lib/winrt45/HtmlAgilityPack.dll",
+        "lib/winrt45/HtmlAgilityPack.pdb",
+        "lib/winrt45/HtmlAgilityPack.pri",
+        "lib/winrt45/HtmlAgilityPack.xml",
+        "readme.txt"
+      ]
+    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -1182,6 +1343,47 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNet.Mvc/3.0.50813.1": {
+      "sha512": "0WtbRi7UYtd8uzq34VlMsA5Y4qFsY+56iwaSTQHAt4kenxKlA0wqn52L2r4jTl+BLe/SSujwrAVIvLRsLuR8ZQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.mvc/3.0.50813.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Web.config.install.xdt",
+        "content/Web.config.uninstall.xdt",
+        "lib/net40/System.Web.Mvc.dll",
+        "microsoft.aspnet.mvc.3.0.50813.1.nupkg.sha512",
+        "microsoft.aspnet.mvc.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Razor/1.0.20105.408": {
+      "sha512": "vRmwL/G31Xc9DusVQUJXmDpTYEVB7xUoIjKqCyuOHrCyG9kzM66MadNjdPLzplSsDoWqiae35US8XiiI3e6SBw==",
+      "type": "package",
+      "path": "microsoft.aspnet.razor/1.0.20105.408",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/System.Web.Razor.dll",
+        "microsoft.aspnet.razor.1.0.20105.408.nupkg.sha512",
+        "microsoft.aspnet.razor.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebPages/1.0.20105.408": {
+      "sha512": "da1//kx0b6GXJG6V8vGl7PmvhPJE/aNs2mK0QJ9bojgy059BDdYhmAwpTT1ucDgbImbFDdmNGi/XJj2SU0QJeA==",
+      "type": "package",
+      "path": "microsoft.aspnet.webpages/1.0.20105.408",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/System.Web.Helpers.dll",
+        "lib/net40/System.Web.WebPages.Deployment.dll",
+        "lib/net40/System.Web.WebPages.Razor.dll",
+        "lib/net40/System.Web.WebPages.dll",
+        "microsoft.aspnet.webpages.1.0.20105.408.nupkg.sha512",
+        "microsoft.aspnet.webpages.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -2351,6 +2553,41 @@
         "microsoft.visualstudio.web.codegenerators.mvc.nuspec"
       ]
     },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "type": "package",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Web.Infrastructure.dll",
+        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+        "microsoft.web.infrastructure.nuspec"
+      ]
+    },
+    "Moq/4.0.10827": {
+      "sha512": "MiSRqZ+Dj3mF3I/KSC9uWQZK7G4FgR6eM5/EWSVE3H/x8xu5EMsMaLeZfgGGbu0Difk2nllSsepa8F7ahl/tsg==",
+      "type": "package",
+      "path": "moq/4.0.10827",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "Moq.chm",
+        "lib/NET35/Moq.dll",
+        "lib/NET35/Moq.pdb",
+        "lib/NET35/Moq.xml",
+        "lib/NET40/Moq.dll",
+        "lib/NET40/Moq.pdb",
+        "lib/NET40/Moq.xml",
+        "lib/Silverlight4/Castle.Core.dll",
+        "lib/Silverlight4/Moq.Silverlight.dll",
+        "lib/Silverlight4/Moq.Silverlight.pdb",
+        "lib/Silverlight4/Moq.Silverlight.xml",
+        "moq.4.0.10827.nupkg.sha512",
+        "moq.nuspec"
+      ]
+    },
     "MySqlConnector/1.3.7": {
       "sha512": "cceT5xpMPgInT8sVnmhZ62aouEux6dWJjOaMSsYW0TmLvK+gwG0eKw8J9NklTw+Q5Cch9Sd04OBux3GSITvABw==",
       "type": "package",
@@ -2424,6 +2661,47 @@
         "lib/netstandard2.1/Pomelo.EntityFrameworkCore.MySql.xml",
         "pomelo.entityframeworkcore.mysql.5.0.0.nupkg.sha512",
         "pomelo.entityframeworkcore.mysql.nuspec"
+      ]
+    },
+    "RazorGenerator.Mvc/2.4.9": {
+      "sha512": "RlCzv0B5Crt1WlQQq8l0RPUa/5onncrbCndNsEi8wd5nXtJEssTHI/dToFEC/SwHKYiwzGP22UXTjE7GCWqejw==",
+      "type": "package",
+      "path": "razorgenerator.mvc/2.4.9",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/App_Start/RazorGeneratorMvcStart.cs.pp",
+        "lib/net40/RazorGenerator.Mvc.dll",
+        "razorgenerator.mvc.2.4.9.nupkg.sha512",
+        "razorgenerator.mvc.nuspec",
+        "tools/RazorGenerator.psd1",
+        "tools/RazorGenerator.psm1",
+        "tools/init.ps1"
+      ]
+    },
+    "RazorGenerator.Testing/2.4.7": {
+      "sha512": "HnxsTjsauWAhxlz6iGcWXbwHLjJmCpPUxi4vggnlhS+Yc898LD3gUrPjNQKBYOzGYuGczi9qrq/WjVf61CdhoA==",
+      "type": "package",
+      "path": "razorgenerator.testing/2.4.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/RazorGenerator.Testing.dll",
+        "razorgenerator.testing.2.4.7.nupkg.sha512",
+        "razorgenerator.testing.nuspec"
+      ]
+    },
+    "ReflectionMagic/2.0.0": {
+      "sha512": "254Cn7IKnVz7BVEzLbKbY02yyFF5Og+wFyZAMwPpcHrjbog5srlvn6nWqkxZg+RhBaWhOamhLbFZ1crgZvpv6w==",
+      "type": "package",
+      "path": "reflectionmagic/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/ReflectionMagic.dll",
+        "reflectionmagic.2.0.0.nupkg.sha512",
+        "reflectionmagic.nuspec"
       ]
     },
     "System.Collections/4.3.0": {
@@ -4206,6 +4484,18 @@
         "version.txt"
       ]
     },
+    "WebActivatorEx/2.0.3": {
+      "sha512": "1WLybAZ2kWOy+n9sgSQoQI512+8xlxddndIjbKo7Qn4qY8VL6kKPZPK2f9dVJ6kTO8ZvwB82cgUvV5OYU4BeGw==",
+      "type": "package",
+      "path": "webactivatorex/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/WebActivatorEx.dll",
+        "webactivatorex.2.0.3.nupkg.sha512",
+        "webactivatorex.nuspec"
+      ]
+    },
     "myMovieWatchlistLibrary/1.0.0": {
       "type": "project",
       "path": "../myMovieWatchlistLibrary/myMovieWatchlistLibrary.csproj",
@@ -4219,6 +4509,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.5",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
       "Pomelo.EntityFrameworkCore.MySql >= 5.0.0",
+      "RazorGenerator.Mvc >= 2.4.9",
+      "RazorGenerator.Testing >= 2.4.7",
       "myMovieWatchlistLibrary >= 1.0.0"
     ]
   },
@@ -4291,6 +4583,14 @@
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
             "version": "[5.0.0, )"
+          },
+          "RazorGenerator.Mvc": {
+            "target": "Package",
+            "version": "[2.4.9, )"
+          },
+          "RazorGenerator.Testing": {
+            "target": "Package",
+            "version": "[2.4.7, )"
           }
         },
         "imports": [
@@ -4314,5 +4614,107 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HtmlAgilityPack 1.4.6' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "HtmlAgilityPack",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Mvc 3.0.50813.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Mvc",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Razor 1.0.20105.408' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Razor",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebPages 1.0.20105.408' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebPages",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Web.Infrastructure",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Moq 4.0.10827' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Moq",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RazorGenerator.Mvc 2.4.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "RazorGenerator.Mvc",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RazorGenerator.Testing 2.4.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "RazorGenerator.Testing",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ReflectionMagic 2.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "ReflectionMagic",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebActivatorEx 2.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WebActivatorEx",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myMovieWatchlistApp", "myMovieWatchlistApp.csproj", "{CF571D36-0052-4854-9AC2-D41234533948}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myMovieWatchlistLibrary", "..\myMovieWatchlistLibrary\myMovieWatchlistLibrary.csproj", "{998713D7-1CDD-4FD1-9BEC-A0337D9EB04E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myMovieWatchlistLibrary", "..\myMovieWatchlistLibrary\myMovieWatchlistLibrary.csproj", "{998713D7-1CDD-4FD1-9BEC-A0337D9EB04E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myMovieWatchlistTest", "..\myMovieWatchlistTest\myMovieWatchlistTest.csproj", "{6E09E32A-2AFC-43E0-84E6-C0CCE0A3E0B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{998713D7-1CDD-4FD1-9BEC-A0337D9EB04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{998713D7-1CDD-4FD1-9BEC-A0337D9EB04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{998713D7-1CDD-4FD1-9BEC-A0337D9EB04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E09E32A-2AFC-43E0-84E6-C0CCE0A3E0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E09E32A-2AFC-43E0-84E6-C0CCE0A3E0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E09E32A-2AFC-43E0-84E6-C0CCE0A3E0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E09E32A-2AFC-43E0-84E6-C0CCE0A3E0B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

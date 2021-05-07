@@ -1,9 +1,11 @@
 ﻿using myMovieWatchlistLibrary.Models;
+using myMovieWatchlistLibrary.Interfaces;
+using myMovieWatchlistLibrary.Repositories;
 using Microsoft.Extensions.Logging;
 using myMovieWatchlistApp.Models;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using myMovieWatchlistApp.Data;
+using myMovieWatchlistLibrary.Data;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Linq;
@@ -14,13 +16,18 @@ namespace myMovieWatchlistApp.Controllers
     public class HomeController : Controller
     {
         // Initialising Database
-        private readonly ApplicationDbContext dbContext;
+        //private readonly ApplicationDbContext dbContext;
+        private IRepositoryWrapper _repo;
 
         // Controller Construstor
         // - assigning given database to local database variable
-        public HomeController(ApplicationDbContext applicationDbContext)
+        //public HomeController(ApplicationDbContext applicationDbContext)
+        //{
+        //    dbContext = applicationDbContext;
+        //}
+        public HomeController(IRepositoryWrapper repo)
         {
-            dbContext = applicationDbContext;
+            _repo = repo;
         }
 
         // CREATE
@@ -41,8 +48,10 @@ namespace myMovieWatchlistApp.Controllers
                 Name = list.Name,
                 Description = list.Description
             };
-            dbContext.Lists.Add(newlist);
-            dbContext.SaveChanges();
+            //dbContext.Lists.Add(newlist);
+            _repo.Lists.Create(newlist);
+            //dbContext.SaveChanges();
+            _repo.Save();
             return RedirectToAction("Index");
         }
 
@@ -51,7 +60,8 @@ namespace myMovieWatchlistApp.Controllers
         [Route("")]
         public IActionResult Index()
         {
-            return View(dbContext.Lists.ToList());
+            //return View(dbContext.Lists.ToList());
+            return View(_repo.Lists.FindAll());
         }
 
         // -launched when a user clicks a list name.
@@ -68,7 +78,8 @@ namespace myMovieWatchlistApp.Controllers
         [Route("updatelist/{id:int}")]
         public IActionResult Update(int id)
         {
-            return View(dbContext.Lists.FirstOrDefault(c => c.ID == id));
+            //return View(dbContext.Lists.FirstOrDefault(c => c.ID == id));
+            return View(_repo.Lists.FindByCondition(c => c.ID == id).FirstOrDefault());
         }
 
         // -returning from the update view, the list is grabbed from the database and updated.
@@ -76,12 +87,14 @@ namespace myMovieWatchlistApp.Controllers
         [HttpPost("updatelist/{id:int}")]
         public IActionResult Update(List list, int id)
         {
-            var updateList = dbContext.Lists.FirstOrDefault(c => c.ID == id);
+            //var updateList = dbContext.Lists.FirstOrDefault(c => c.ID == id);
+            var updateList = _repo.Lists.FindByCondition(c => c.ID == id).FirstOrDefault();
 
             updateList.Name = list.Name;
             updateList.Description = list.Description;
 
-            dbContext.SaveChanges();
+            //dbContext.SaveChanges();#
+            _repo.Save();
             return RedirectToAction("Index");
         }
 
@@ -91,10 +104,13 @@ namespace myMovieWatchlistApp.Controllers
         [Route("deletelist/{id:int}")]
         public IActionResult Delete(int id)
         {
-            var deleteList = dbContext.Lists.FirstOrDefault(c => c.ID == id);
+            //var deleteList = dbContext.Lists.FirstOrDefault(c => c.ID == id);
+            var deleteList = _repo.Lists.FindByCondition(c => c.ID == id).FirstOrDefault();
 
-            dbContext.Lists.Remove(deleteList);
-            dbContext.SaveChanges();
+            //dbContext.Lists.Remove(deleteList);
+            _repo.Lists.Delete(deleteList);
+            //dbContext.SaveChanges();
+            _repo.Save();
             return RedirectToAction("Index");
         }
     }

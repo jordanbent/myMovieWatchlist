@@ -2,6 +2,7 @@ C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\bin\Debug\net5.0\myMovieWat
 C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\bin\Debug\net5.0\myMovieWatchlistLibrary.dll
 C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\bin\Debug\net5.0\ref\myMovieWatchlistLibrary.dll
 C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\bin\Debug\net5.0\myMovieWatchlistLibrary.pdb
+C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Debug\net5.0\myMovieWatchlistLibrary.csprojAssemblyReference.cache
 C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Debug\net5.0\myMovieWatchlistLibrary.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Debug\net5.0\myMovieWatchlistLibrary.AssemblyInfoInputs.cache
 C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Debug\net5.0\myMovieWatchlistLibrary.AssemblyInfo.cs
@@ -9,4 +10,3 @@ C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Debug\net5.0\myMovieWat
 C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Debug\net5.0\myMovieWatchlistLibrary.dll
 C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Debug\net5.0\ref\myMovieWatchlistLibrary.dll
 C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Debug\net5.0\myMovieWatchlistLibrary.pdb
-C:\Projects\myMovieWatchlist\myMovieWatchlistLibrary\obj\Debug\net5.0\myMovieWatchlistLibrary.csprojAssemblyReference.cache

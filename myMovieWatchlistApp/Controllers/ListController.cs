@@ -1,9 +1,11 @@
 using myMovieWatchlistLibrary.Models;
+using myMovieWatchlistLibrary.Interfaces;
+using myMovieWatchlistLibrary.Repositories;
 using Microsoft.Extensions.Logging;
 using myMovieWatchlistApp.Models;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using myMovieWatchlistApp.Data;
+using myMovieWatchlistLibrary.Data;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Linq;
@@ -16,13 +18,18 @@ namespace myMovieWatchlistApp.Controllers
     public class ListController : Controller
     {
         // Initialising Database
-        private readonly ApplicationDbContext dbContext;
+        //private readonly ApplicationDbContext dbContext;
+        private IRepositoryWrapper _repo;
 
         // Controller Construstor
         // - assigning given database to local database variable
-        public ListController(ApplicationDbContext applicationDbContext)
+        //public ListController(ApplicationDbContext applicationDbContext)
+        //{
+        //    dbContext = applicationDbContext;
+        //}
+        public ListController(IRepositoryWrapper repo)
         {
-            dbContext = applicationDbContext;
+            _repo = repo;
         }
 
         // CREATE
@@ -49,16 +56,21 @@ namespace myMovieWatchlistApp.Controllers
                 DateAdded = (DateTime.Now.ToString("dd/MM/yy")),
                 Watched = false
             };
-            dbContext.Movies.Add(newMovie);
-            dbContext.SaveChanges();
+            //dbContext.Movies.Add(newMovie);
+            //dbContext.SaveChanges();
+            _repo.Movies.Create(newMovie);
+            _repo.Save();
 
             MovieList newML = new MovieList
             {
                 ListID = listID,
                 MovieID = newMovie.ID
             };
-            dbContext.MovieList.Add(newML);
-            dbContext.SaveChanges();
+            //dbContext.MovieList.Add(newML);
+            //dbContext.SaveChanges();
+            _repo.MovieLists.Create(newML);
+            _repo.Save();
+
             return RedirectToAction("Details", new { listID });
         }
 
@@ -71,22 +83,32 @@ namespace myMovieWatchlistApp.Controllers
         [Route("details/{listID:int}")]
         public IActionResult Details(int listID)
         {
-            var list = dbContext.Lists.FirstOrDefault(l => l.ID == listID);
+            //var list = dbContext.Lists.FirstOrDefault(l => l.ID == listID);
+            var list = _repo.Lists.FindByCondition(l => l.ID == listID).FirstOrDefault();
             ViewBag.ID = listID;
             ViewBag.ListName = list.Name;
             ViewBag.ListDes = list.Description;
 
             List<Movie> movies = new List<Movie>();
-            var allMovies = dbContext.Movies.ToList();
-            foreach (MovieList ml in dbContext.MovieList)
+            List<MovieList> movieLists = new List<MovieList>();
+            //var allMovies = dbContext.Movies.ToList();
+            //var allMovies = _repo.Movies.FindAll();
+
+            //var allMovieLists = _repo.MovieLists.FindAll();
+
+            foreach (MovieList ml in _repo.MovieLists.FindAll())
             {
                 if (ml.ListID == listID)
                 {
-                    foreach (var mov in allMovies)
-                    {
-                        if (mov.ID == ml.MovieID)
-                            movies.Add(mov);
-                    }
+                    movieLists.Add(ml);
+                }
+            }
+            foreach (Movie mov in _repo.Movies.FindAll())
+            {
+                foreach (MovieList ml in movieLists)
+                {
+                    if (mov.ID == ml.MovieID)
+                        movies.Add(mov);
                 }
             }
             ViewBag.Movies = movies;
@@ -100,7 +122,8 @@ namespace myMovieWatchlistApp.Controllers
         public IActionResult Update(int movieID, int listID)
         {
             ViewBag.ID = listID;
-            return View(dbContext.Movies.FirstOrDefault(c => c.ID == movieID));
+            //return View(dbContext.Movies.FirstOrDefault(c => c.ID == movieID));
+            return View(_repo.Movies.FindByCondition(c => c.ID == movieID).FirstOrDefault());
         }
 
         // -returning from the update view, the movie is grabbed from the database and updated.
@@ -108,13 +131,15 @@ namespace myMovieWatchlistApp.Controllers
         [HttpPost("updatemovie/{movieID:int}/{listID:int}")]
         public IActionResult Update(Movie movie, int movieID, int listID)
         {
-            var updateMovie = dbContext.Movies.FirstOrDefault(c => c.ID == movieID);
+            //var updateMovie = dbContext.Movies.FirstOrDefault(c => c.ID == movieID);
+            var updateMovie = _repo.Movies.FindByCondition(c => c.ID == movieID).FirstOrDefault();
 
             updateMovie.Name = movie.Name;
             updateMovie.Year = movie.Year;
             updateMovie.Watched = movie.Watched;
 
-            dbContext.SaveChanges();
+            //dbContext.SaveChanges();
+            _repo.Save();
             return RedirectToAction("Details", new { listID });
         }
 
@@ -124,13 +149,19 @@ namespace myMovieWatchlistApp.Controllers
         [Route("deletemovie/{movieID:int}/{listID:int}")]
         public IActionResult Delete(int movieID, int listID)
         {
-            var deleteMovie = dbContext.Movies.FirstOrDefault(c => c.ID == movieID);
-            dbContext.Movies.Remove(deleteMovie);
-            dbContext.SaveChanges();
+            //var deleteMovie = dbContext.Movies.FirstOrDefault(c => c.ID == movieID
+            //dbContext.Movies.Remove(deleteMovie);
+            //dbContext.SaveChanges();
+            var deleteMovie = _repo.Movies.FindByCondition(c => c.ID == movieID).FirstOrDefault();
+            _repo.Movies.Delete(deleteMovie);
+            _repo.Save();
 
-            var deleteML = dbContext.MovieList.FirstOrDefault(c => (c.MovieID == movieID) && (c.ListID == listID));
-            dbContext.MovieList.Remove(deleteML);
-            dbContext.SaveChanges();
+            //var deleteML = dbContext.MovieList.FirstOrDefault(c => (c.MovieID == movieID) && (c.ListID == listID));
+            //dbContext.MovieList.Remove(deleteML);
+            //dbContext.SaveChanges();
+            var deleteML = _repo.MovieLists.FindByCondition(c => (c.MovieID == movieID) && (c.ListID == listID)).FirstOrDefault();
+            _repo.MovieLists.Delete(deleteML);
+            _repo.Save();
 
             return RedirectToAction("Details", new { listID });
         }

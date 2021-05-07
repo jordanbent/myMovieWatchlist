@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using myMovieWatchlistApp.Data;
+using myMovieWatchlistLibrary.Data;
 
 namespace myMovieWatchlistApp.Migrations
 {
