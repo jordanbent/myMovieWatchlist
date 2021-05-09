@@ -56,7 +56,7 @@ This application is a ASP.NET Core MVC Web Applcation with an Azure Database, de
 * As a user, I want a clean interface with no fuss, so that I can quickly and easily add/delete/edit/look at all the movies I have watched and want to watch.
 
 ### Trello Board <a name="trelloboard"></a>
-![Trello Board](./imgs/trello.PNG)
+![Trello Board](./imgs/trello.png)
 
 ## Architecture <a name="architecture"></a>
 ### Database <a name="database"></a>
@@ -103,32 +103,32 @@ Testing revealed issues I had in my code with poor exception handling. I fixed t
 ## Front-End <a name="frontend"></a>
 When accessing the WebApp, the user is brought to the homepage that introduces the List CRUD functionailty. From the hompage, providing a list has been created, the user can navigate to the list page where all movies associated with the list are displayed.
 ### Homepage
-![Homepage](./imgs/homepage1.PNG)
+![Homepage](./imgs/homepage1.png)
 ### Create a List Page
-![Add A List](./imgs/homepage_addlist.PNG)
+![Add A List](./imgs/homepage_addlist.png)
 ### Homepage Showing New List
-![Homepage With New List](./imgs/homepage_addlist2.PNG)
+![Homepage With New List](./imgs/homepage_addlist2.png)
 ### Update List Page
-![Update List Page Old Info](./imgs/homepage_updatelist1.PNG)
-![Update List Page New Info](./imgs/homepage_updatelist2.PNG)
+![Update List Page Old Info](./imgs/homepage_updatelist1.png)
+![Update List Page New Info](./imgs/homepage_updatelist2.png)
 ### Homepage With Updated List
-![Homepage with Updated List](./imgs/homepage_deletelist1.PNG)
+![Homepage with Updated List](./imgs/homepage_deletelist1.png)
 ### Deleted List
-![Code Coverage Report](./imgs/homepage_deletelists2.PNG)
+![Code Coverage Report](./imgs/homepage_deletelists2.png)
 
 ### List Page 
 Accessed through clicking a list on the homepage.
-![List Page - Empty](./imgs/listpage_home.PNG)
+![List Page - Empty](./imgs/listpage_home.png)
 ### Create a Movie Page
-![Add A List](./imgs/listpage_addMovie.PNG)
+![Add A List](./imgs/listpage_addMovie.png)
 ### List Page with Added Movie
-![List Page with Added Movie](./imgs/listpage_withmovei.PNG)
+![List Page with Added Movie](./imgs/listpage_withmovei.png)
 ### Update Movie Page
-![Update Movie Page](./imgs/listpage_updateMovie1.PNG)
+![Update Movie Page](./imgs/listpage_updateMovie1.png)
 ### Updated Movie
-![Updated Movie](./imgs/listpage_updatedMovie.PNG)
+![Updated Movie](./imgs/listpage_updatedMovie.png)
 ### Deleted Movie
-![Deleted Movie](./imgs/listpage_deletedmovie.PNG)
+![Deleted Movie](./imgs/listpage_deletedmovie.png)
 
 ## Issues and Improvements <a name="issues"></a>
 ### Issues
