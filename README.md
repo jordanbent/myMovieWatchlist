@@ -86,7 +86,16 @@ Unfortunately after publishing through Azure pipelines there is an error:
 So I had to Publish through the Visual Studio publisher. 
 ![Publish](./imgs/publish.PNG)
 
+* Developer: I as the developer interact with Visual Studio to create the WebApp adn test it.
+* Visual Studio: This is the IDE to implement all code. From here the project is pushed to a GitHub repository for version control.
+* GitHub: GitHub holds the project in a repository. It is connected to Azure Repos within Azure DevOps. 
+* Azure Repos: This holds a pointer to the GitHub repository with the project in it.
+* Azure Pipelines: This is triggered when code is committed to main. My pipeline onyl manages to build the project to ensure it is compilable. Ideally, it would restore, build and publish the project to the WebApp.
+* Azure App Service: This hosts the WebApp online at https://mymoviewatchlist.azurewebsites.net. This allows users to interact with the WebApp. 
+
 ## Risk Assesment <a name="risk"></a>
+A lot of the risk associated with this project came from it's nature of being online and the risks that come with cloud hosting. There is never full security that the WebApp is not at risk, so there are some precautions to take. 
+ 
 ![Risk Assesment](./imgs/riskassesment.PNG)
 
 ## Testing <a name="test"></a>
@@ -150,7 +159,7 @@ I would like to improve:
 * The UI: Add some more unique features and styling ad it is currently quite basic.
 * The Input: Ideally I would like to have the input areas as a partial view within the same page so the user isn't navigating between seperate pages.
 * Edit of Movies: I would like to make the movie item editable within the movie view page, with the watched attribute like a radio button immitating a checklist.
-* Add Publish Through Azure Pipelines.
+* Add Publish Through Azure Pipelines: I would like to do it and get more comfortable with Pipelines in gerneral. I had a hard time with it with a lot of issues.
 
 ### Additional Features
 I would like to add:
