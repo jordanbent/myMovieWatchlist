@@ -82,7 +82,9 @@ This was the aimed CI Pipeline implementation and nearly every aspect was a succ
 
 Unfortunately after publishing through Azure pipelines there is an error:
 ![CI Pipeline Error](./imgs/errorCI.PNG)
+
 So I had to Publish through the Visual Studio publisher. 
+![Publish](./imgs/publish.PNG)
 
 ## Risk Assesment <a name="risk"></a>
 ![Risk Assesment](./imgs/riskassesment.PNG)
