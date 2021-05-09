@@ -96,6 +96,7 @@ namespace myMovieWatchlistApp.Controllers
             }
 
             //dbContext.SaveChanges();#
+            _repo.Lists.Update(updateList);
             _repo.Save();
             return RedirectToAction("Index");
         }

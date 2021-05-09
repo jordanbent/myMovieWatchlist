@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.6218" branch-rate="0.1516" version="1.9" timestamp="1620395503" lines-covered="324" lines-valid="521" branches-covered="27" branches-valid="178">
+<coverage line-rate="0.6221" branch-rate="0.1516" version="1.9" timestamp="1620559564" lines-covered="326" lines-valid="524" branches-covered="27" branches-valid="178">
   <sources>
     <source>C:\</source>
   </sources>
   <packages>
-    <package name="myMovieWatchlistApp" line-rate="0.6823" branch-rate="0.7352" complexity="49">
+    <package name="myMovieWatchlistApp" line-rate="0.6859999999999999" branch-rate="0.7352" complexity="49">
       <classes>
         <class name="myMovieWatchlistApp.Program" filename="Projects\myMovieWatchlist\myMovieWatchlistApp\Program.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
@@ -132,7 +132,7 @@
             <line number="18" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="myMovieWatchlistApp.Controllers.HomeController" filename="Projects\myMovieWatchlist\myMovieWatchlistApp\Controllers\HomeController.cs" line-rate="0.9047" branch-rate="0.5" complexity="9">
+        <class name="myMovieWatchlistApp.Controllers.HomeController" filename="Projects\myMovieWatchlist\myMovieWatchlistApp\Controllers\HomeController.cs" line-rate="0.9068999999999999" branch-rate="0.5" complexity="9">
           <methods>
             <method name="Create" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -176,7 +176,7 @@
                 <line number="82" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="Update" signature="(myMovieWatchlistLibrary.Models.List,System.Int32)" line-rate="0.6" branch-rate="0.5" complexity="2">
+            <method name="Update" signature="(myMovieWatchlistLibrary.Models.List,System.Int32)" line-rate="0.6363" branch-rate="0.5" complexity="2">
               <lines>
                 <line number="88" hits="1" branch="False" />
                 <line number="90" hits="1" branch="False" />
@@ -192,16 +192,17 @@
                 <line number="99" hits="1" branch="False" />
                 <line number="100" hits="1" branch="False" />
                 <line number="101" hits="1" branch="False" />
+                <line number="102" hits="1" branch="False" />
               </lines>
             </method>
             <method name="Delete" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="108" hits="1" branch="False" />
-                <line number="110" hits="1" branch="False" />
-                <line number="113" hits="1" branch="False" />
-                <line number="115" hits="1" branch="False" />
+                <line number="109" hits="1" branch="False" />
+                <line number="111" hits="1" branch="False" />
+                <line number="114" hits="1" branch="False" />
                 <line number="116" hits="1" branch="False" />
                 <line number="117" hits="1" branch="False" />
+                <line number="118" hits="1" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(myMovieWatchlistLibrary.Interfaces.IRepositoryWrapper)" line-rate="1" branch-rate="1" complexity="1">
@@ -250,19 +251,20 @@
             <line number="99" hits="1" branch="False" />
             <line number="100" hits="1" branch="False" />
             <line number="101" hits="1" branch="False" />
-            <line number="108" hits="1" branch="False" />
-            <line number="110" hits="1" branch="False" />
-            <line number="113" hits="1" branch="False" />
-            <line number="115" hits="1" branch="False" />
+            <line number="102" hits="1" branch="False" />
+            <line number="109" hits="1" branch="False" />
+            <line number="111" hits="1" branch="False" />
+            <line number="114" hits="1" branch="False" />
             <line number="116" hits="1" branch="False" />
             <line number="117" hits="1" branch="False" />
+            <line number="118" hits="1" branch="False" />
             <line number="27" hits="8" branch="False" />
             <line number="28" hits="8" branch="False" />
             <line number="29" hits="8" branch="False" />
             <line number="30" hits="8" branch="False" />
           </lines>
         </class>
-        <class name="myMovieWatchlistApp.Controllers.ListController" filename="Projects\myMovieWatchlist\myMovieWatchlistApp\Controllers\ListController.cs" line-rate="0.8965000000000001" branch-rate="0.8" complexity="33">
+        <class name="myMovieWatchlistApp.Controllers.ListController" filename="Projects\myMovieWatchlist\myMovieWatchlistApp\Controllers\ListController.cs" line-rate="0.8976999999999999" branch-rate="0.8" complexity="33">
           <methods>
             <method name="Create" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
@@ -396,7 +398,7 @@
                 <line number="132" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="Update" signature="(myMovieWatchlistLibrary.Models.Movie,System.Int32,System.Int32)" line-rate="0.6428" branch-rate="0.5" complexity="2">
+            <method name="Update" signature="(myMovieWatchlistLibrary.Models.Movie,System.Int32,System.Int32)" line-rate="0.6666" branch-rate="0.5" complexity="2">
               <lines>
                 <line number="138" hits="1" branch="False" />
                 <line number="140" hits="1" branch="False" />
@@ -409,26 +411,27 @@
                 <line number="144" hits="0" branch="False" />
                 <line number="145" hits="0" branch="False" />
                 <line number="146" hits="0" branch="False" />
-                <line number="147" hits="0" branch="False" />
-                <line number="149" hits="1" branch="False" />
+                <line number="148" hits="0" branch="False" />
                 <line number="150" hits="1" branch="False" />
                 <line number="151" hits="1" branch="False" />
-                <line number="154" hits="1" branch="False" />
+                <line number="152" hits="1" branch="False" />
                 <line number="155" hits="1" branch="False" />
                 <line number="156" hits="1" branch="False" />
+                <line number="157" hits="1" branch="False" />
+                <line number="158" hits="1" branch="False" />
               </lines>
             </method>
             <method name="Delete" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="163" hits="1" branch="False" />
-                <line number="167" hits="1" branch="False" />
-                <line number="168" hits="1" branch="False" />
+                <line number="165" hits="1" branch="False" />
                 <line number="169" hits="1" branch="False" />
-                <line number="174" hits="1" branch="False" />
-                <line number="175" hits="1" branch="False" />
+                <line number="170" hits="1" branch="False" />
+                <line number="171" hits="1" branch="False" />
                 <line number="176" hits="1" branch="False" />
+                <line number="177" hits="1" branch="False" />
                 <line number="178" hits="1" branch="False" />
-                <line number="179" hits="1" branch="False" />
+                <line number="180" hits="1" branch="False" />
+                <line number="181" hits="1" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(myMovieWatchlistLibrary.Interfaces.IRepositoryWrapper)" line-rate="1" branch-rate="1" complexity="1">
@@ -568,22 +571,23 @@
             <line number="144" hits="0" branch="False" />
             <line number="145" hits="0" branch="False" />
             <line number="146" hits="0" branch="False" />
-            <line number="147" hits="0" branch="False" />
-            <line number="149" hits="1" branch="False" />
+            <line number="148" hits="0" branch="False" />
             <line number="150" hits="1" branch="False" />
             <line number="151" hits="1" branch="False" />
-            <line number="154" hits="1" branch="False" />
+            <line number="152" hits="1" branch="False" />
             <line number="155" hits="1" branch="False" />
             <line number="156" hits="1" branch="False" />
-            <line number="163" hits="1" branch="False" />
-            <line number="167" hits="1" branch="False" />
-            <line number="168" hits="1" branch="False" />
+            <line number="157" hits="1" branch="False" />
+            <line number="158" hits="1" branch="False" />
+            <line number="165" hits="1" branch="False" />
             <line number="169" hits="1" branch="False" />
-            <line number="174" hits="1" branch="False" />
-            <line number="175" hits="1" branch="False" />
+            <line number="170" hits="1" branch="False" />
+            <line number="171" hits="1" branch="False" />
             <line number="176" hits="1" branch="False" />
+            <line number="177" hits="1" branch="False" />
             <line number="178" hits="1" branch="False" />
-            <line number="179" hits="1" branch="False" />
+            <line number="180" hits="1" branch="False" />
+            <line number="181" hits="1" branch="False" />
             <line number="29" hits="7" branch="False" />
             <line number="30" hits="7" branch="False" />
             <line number="31" hits="7" branch="False" />
@@ -719,7 +723,7 @@
                 </line>
                 <line number="18" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
-                    <condition number="965" type="jump" coverage="0%" />
+                    <condition number="1041" type="jump" coverage="0%" />
                   </conditions>
                 </line>
                 <line number="19" hits="0" branch="False" />
@@ -727,6 +731,7 @@
                 <line number="25" hits="0" branch="False" />
                 <line number="28" hits="0" branch="False" />
                 <line number="31" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
@@ -738,7 +743,7 @@
             </line>
             <line number="18" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
-                <condition number="965" type="jump" coverage="0%" />
+                <condition number="1041" type="jump" coverage="0%" />
               </conditions>
             </line>
             <line number="19" hits="0" branch="False" />
@@ -746,18 +751,19 @@
             <line number="25" hits="0" branch="False" />
             <line number="28" hits="0" branch="False" />
             <line number="31" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
           </lines>
         </class>
         <class name="AspNetCore.Views_Home_Index/&lt;&lt;ExecuteAsync&gt;b__8_1&gt;d" filename="Projects\myMovieWatchlist\myMovieWatchlistApp\Views\Home\Index.cshtml" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="38" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="38" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
           </lines>
         </class>
         <class name="AspNetCore.Views_Home_Privacy/&lt;ExecuteAsync&gt;d__0" filename="Projects\myMovieWatchlist\myMovieWatchlistApp\Views\Home\Privacy.cshtml" line-rate="0" branch-rate="1" complexity="1">
@@ -1054,26 +1060,26 @@
                     <condition number="1298" type="jump" coverage="0%" />
                   </conditions>
                 </line>
-                <line number="25" hits="0" branch="True" condition-coverage="0% (0/4)">
+                <line number="24" hits="0" branch="True" condition-coverage="0% (0/4)">
                   <conditions>
                     <condition number="1403" type="jump" coverage="0%" />
                     <condition number="1495" type="jump" coverage="0%" />
                   </conditions>
                 </line>
-                <line number="27" hits="0" branch="True" condition-coverage="0% (0/4)">
+                <line number="26" hits="0" branch="True" condition-coverage="0% (0/4)">
                   <conditions>
                     <condition number="1627" type="jump" coverage="0%" />
                     <condition number="1709" type="jump" coverage="0%" />
                   </conditions>
                 </line>
-                <line number="28" hits="0" branch="True" condition-coverage="0% (0/4)">
+                <line number="27" hits="0" branch="True" condition-coverage="0% (0/4)">
                   <conditions>
                     <condition number="1856" type="jump" coverage="0%" />
                     <condition number="1938" type="jump" coverage="0%" />
                   </conditions>
                 </line>
-                <line number="31" hits="0" branch="False" />
-                <line number="34" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
@@ -1118,38 +1124,38 @@
                 <condition number="1298" type="jump" coverage="0%" />
               </conditions>
             </line>
-            <line number="25" hits="0" branch="True" condition-coverage="0% (0/4)">
+            <line number="24" hits="0" branch="True" condition-coverage="0% (0/4)">
               <conditions>
                 <condition number="1403" type="jump" coverage="0%" />
                 <condition number="1495" type="jump" coverage="0%" />
               </conditions>
             </line>
-            <line number="27" hits="0" branch="True" condition-coverage="0% (0/4)">
+            <line number="26" hits="0" branch="True" condition-coverage="0% (0/4)">
               <conditions>
                 <condition number="1627" type="jump" coverage="0%" />
                 <condition number="1709" type="jump" coverage="0%" />
               </conditions>
             </line>
-            <line number="28" hits="0" branch="True" condition-coverage="0% (0/4)">
+            <line number="27" hits="0" branch="True" condition-coverage="0% (0/4)">
               <conditions>
                 <condition number="1856" type="jump" coverage="0%" />
                 <condition number="1938" type="jump" coverage="0%" />
               </conditions>
             </line>
-            <line number="31" hits="0" branch="False" />
-            <line number="34" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
           </lines>
         </class>
         <class name="AspNetCore.Views_List_Details/&lt;&lt;ExecuteAsync&gt;b__0_0&gt;d" filename="Projects\myMovieWatchlist\myMovieWatchlistApp\Views\List\Details.cshtml" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="37" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="37" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
           </lines>
         </class>
         <class name="AspNetCore.Views_List_Privacy/&lt;ExecuteAsync&gt;d__0" filename="Projects\myMovieWatchlist\myMovieWatchlistApp\Views\List\Privacy.cshtml" line-rate="0" branch-rate="1" complexity="1">

@@ -144,6 +144,7 @@ namespace myMovieWatchlistApp.Controllers
                 updateMovie.Name = movie.Name;
                 updateMovie.Year = movie.Year;
                 updateMovie.Watched = movie.Watched;
+            
             }
             else
             {
@@ -151,6 +152,7 @@ namespace myMovieWatchlistApp.Controllers
             }
 
             //dbContext.SaveChanges();
+            _repo.Movies.Update(updateMovie);
             _repo.Save();
             return RedirectToAction("Details", new { listID });
         }
